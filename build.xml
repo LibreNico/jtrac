@@ -115,8 +115,15 @@
     
     <!-- cannot be used when jtrac application is connected -->
     <target name="hsqldb-manager">
-        <java classname="org.hsqldb.util.DatabaseManagerSwing" fork="true" classpathref="test.classpath">            
-            <arg line="-url jdbc:hsqldb:file:home/db/jtrac"/>
+
+        <path id="lib.classpath">
+            <fileset dir="C:\workspace\jtrac\target\jtrac\WEB-INF\lib">
+                <include name="*.jar"/>
+            </fileset>
+        </path>
+
+        <java classname="org.hsqldb.util.DatabaseManagerSwing" fork="true" classpathref="lib.classpath" >
+            <arg line="-url jdbc:hsqldb:file:${basedir}/home/db/jtrac"/>
         </java>                            
     </target>    
     

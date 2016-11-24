@@ -16,11 +16,8 @@
 
 package info.jtrac.wicket;
 
-import info.jtrac.domain.Counts;
-import info.jtrac.domain.CountsHolder;
-import info.jtrac.domain.ItemSearch;
-import info.jtrac.domain.User;
-import info.jtrac.domain.UserSpaceRole;
+import info.jtrac.domain.*;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -123,18 +120,24 @@ public class DashboardPage extends BasePage {
             table.setVisible(false);            
         }
 
-        final Map<String, String> links = getJtrac().loadAllStoredSearch();
+        final List<StoredSearch>   links = getJtrac().loadAllStoredSearch();
+        for(StoredSearch ss : links){
+            System.out.println(ss);
+        }
 
-        List<String> names = new ArrayList<String>(links.keySet());
 
 
-        add(new ListView("links", names) {
+        add(new ListView("links", links) {
             protected void populateItem(ListItem listItem) {
 
-                final String name = (String) listItem.getModelObject();
-                final String query = links.get(name);
+                final StoredSearch storedSearch = (StoredSearch) listItem.getModelObject();
 
-                listItem.add(new ExternalLink("externalLink", query, name));
+                if(storedSearch != null){
+                    listItem.add(new ExternalLink("externalLink", storedSearch.getQuery(), storedSearch.getName()));
+                }else {
+                    listItem.add(new ExternalLink("externalLink", "", ""));
+                }
+
 
             }
         });

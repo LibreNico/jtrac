@@ -1,0 +1,146 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Standard Output from JtracTest</title>
+</head>
+<body>
+<pre>2016-11-24 14:39:30,348 [main] INFO [info.jtrac.JtracTest] - Loading context for locations: file:src/main/webapp/WEB-INF/applicationContext.xml,file:src/main/webapp/WEB-INF/applicationContext-lucene.xml
+EMMA: collecting runtime coverage data ...
+2016-11-24 14:39:30,718 [main] INFO [info.jtrac.config.JtracConfigurer] - found 'jtrac-init.properties' on classpath, processing...
+2016-11-24 14:39:30,719 [main] INFO [info.jtrac.config.JtracConfigurer] - locales available configured are 'en,ar,cs,de,el,en,es,es_AR,es_MX,fr,hu,it,ja,ko,nl,no,pl,pt_BR,ru,sl,sv,tr,zh_CN,zh_TW'
+2016-11-24 14:39:30,720 [main] INFO [info.jtrac.config.JtracConfigurer] - valid 'jtrac.home' property not available in 'jtrac-init.properties', trying system properties.
+2016-11-24 14:39:30,720 [main] INFO [info.jtrac.config.JtracConfigurer] - 'jtrac.home' property initialized from system properties as 'target/home'
+2016-11-24 14:39:30,720 [main] INFO [info.jtrac.config.JtracConfigurer] - directory does not exist, created 'target\home'
+2016-11-24 14:39:30,721 [main] INFO [info.jtrac.config.JtracConfigurer] - directory does not exist, created 'target\home\attachments'
+2016-11-24 14:39:30,722 [main] INFO [info.jtrac.config.JtracConfigurer] - directory does not exist, created 'target\home\indexes'
+2016-11-24 14:39:30,723 [main] INFO [info.jtrac.config.JtracConfigurer] - properties file does not exist, created 'target\home\jtrac.properties'
+2016-11-24 14:39:30,726 [main] INFO [info.jtrac.config.JtracConfigurer] - HSQLDB will be used.  Finished creating 'target\home\jtrac.properties'
+2016-11-24 14:39:30,726 [main] INFO [info.jtrac.config.JtracConfigurer] - found 'jtrac-version.properties' on classpath, processing...
+2016-11-24 14:39:30,732 [main] INFO [info.jtrac.config.JtracConfigurer] - jtrac.version = '2.1.1'
+2016-11-24 14:39:30,732 [main] INFO [info.jtrac.config.JtracConfigurer] - jtrac.timestamp = '1441009928'
+2016-11-24 14:39:30,733 [main] INFO [info.jtrac.config.JtracConfigurer] - Loading properties file from file [C:\workspace\jtrac\target\home\jtrac.properties]
+2016-11-24 14:39:30,854 [main] INFO [info.jtrac.config.DataSourceFactoryBean] - embedded HSQLDB mode detected, switching on spring single connection data source
+2016-11-24 14:39:32,793 [main] DEBUG [org.hibernate.SQL] - select item0_.id as id0_, item0_.version as version0_, item0_.space_id as space3_0_, item0_.sequence_num as sequence4_0_, item0_.type as type0_, item0_.parent_id as parent6_0_, item0_.time_stamp as time7_0_, item0_.planned_effort as planned8_0_, item0_.logged_by as logged9_0_, item0_.assigned_to as assigned10_0_, item0_.summary as summary0_, item0_.detail as detail0_, item0_.status as status0_, item0_.severity as severity0_, item0_.priority as priority0_, item0_.cus_dbl_01 as cus16_0_, item0_.cus_dbl_02 as cus17_0_, item0_.cus_dbl_03 as cus18_0_, item0_.cus_int_01 as cus19_0_, item0_.cus_int_02 as cus20_0_, item0_.cus_int_03 as cus21_0_, item0_.cus_int_04 as cus22_0_, item0_.cus_int_05 as cus23_0_, item0_.cus_int_06 as cus24_0_, item0_.cus_int_07 as cus25_0_, item0_.cus_int_08 as cus26_0_, item0_.cus_int_09 as cus27_0_, item0_.cus_int_10 as cus28_0_, item0_.cus_str_01 as cus29_0_, item0_.cus_str_02 as cus30_0_, item0_.cus_str_03 as cus31_0_, item0_.cus_str_04 as cus32_0_, item0_.cus_str_05 as cus33_0_, item0_.cus_tim_01 as cus34_0_, item0_.cus_tim_02 as cus35_0_, item0_.cus_tim_03 as cus36_0_, item0_.cus_text_01 as cus37_0_, item0_.cus_text_02 as cus38_0_, item0_.cus_text_03 as cus39_0_ from items item0_ where item0_.id=1
+2016-11-24 14:39:32,801 [main] INFO [info.jtrac.hibernate.HibernateJtracDao] - database schema exists, normal startup
+2016-11-24 14:39:32,818 [main] DEBUG [org.hibernate.SQL] - select this_.id as id9_0_, this_.next_seq_num as next2_9_0_ from space_sequence this_
+2016-11-24 14:39:32,824 [main] DEBUG [org.hibernate.SQL] - select item0_.space_id as col_0_0_, max(item0_.sequence_num) as col_1_0_ from items item0_ group by item0_.space_id
+2016-11-24 14:39:33,003 [main] INFO [info.jtrac.JtracImpl] - available locales configured {en=en - English, ar=ar - Arabic, cs=cs - Czech, de=de - German, el=el - Greek, es=es - Spanish, es_AR=es_AR - Spanish (Argentina), es_MX=es_MX - Spanish (Mexico), fr=fr - French, hu=hu - Hungarian, it=it - Italian, ja=ja - Japanese, ko=ko - Korean, nl=nl - Dutch, no=no - Norwegian, pl=pl - Polish, pt_BR=pt_BR - Portuguese (Brazil), ru=ru - Russian, sl=sl - Slovenian, sv=sv - Swedish, tr=tr - Turkish, zh_CN=zh_CN - Chinese (China), zh_TW=zh_TW - Chinese (Taiwan)}
+2016-11-24 14:39:33,004 [main] DEBUG [org.hibernate.SQL] - select this_.param as param12_0_, this_.value as value12_0_ from config this_
+2016-11-24 14:39:33,005 [main] WARN [info.jtrac.JtracImpl] - invalid default locale configured = 'null', using en
+2016-11-24 14:39:33,005 [main] INFO [info.jtrac.JtracImpl] - default locale set to 'en'
+2016-11-24 14:39:33,007 [main] WARN [info.jtrac.mail.MailSender] - 'mail.server.host' config is null, mail sender not initialized
+2016-11-24 14:39:33,007 [main] INFO [info.jtrac.mail.MailSender] - email hyperlink base url set to 'http://localhost/jtrac/'
+2016-11-24 14:39:33,008 [main] WARN [info.jtrac.JtracImpl] - invalid attachment max size 'null', using 5
+2016-11-24 14:39:33,008 [main] INFO [info.jtrac.JtracImpl] - attachment max size set to 5 MB
+2016-11-24 14:39:33,008 [main] WARN [info.jtrac.JtracImpl] - invalid session timeout 'null', using 30
+2016-11-24 14:39:33,008 [main] INFO [info.jtrac.JtracImpl] - session timeout set to 30 minutes
+2016-11-24 14:39:33,457 [main] DEBUG [org.hibernate.SQL] - select user0_.id as id6_, user0_.type as type6_, user0_.parent as parent6_, user0_.login_name as login4_6_, user0_.name as name6_, user0_.password as password6_, user0_.email as email6_, user0_.locale as locale6_, user0_.locked as locked6_, user0_.metadata_id as metadata10_6_ from users user0_ where user0_.login_name=?
+2016-11-24 14:39:33,661 [main] DEBUG [org.hibernate.SQL] - insert into metadata (id, version, type, name, description, parent_id, xml_string) values (null, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:33,662 [main] DEBUG [org.hibernate.SQL] - call identity()
+2016-11-24 14:39:33,673 [main] DEBUG [org.hibernate.SQL] - insert into metadata (id, version, type, name, description, parent_id, xml_string) values (null, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:33,673 [main] DEBUG [org.hibernate.SQL] - call identity()
+2016-11-24 14:39:33,675 [main] DEBUG [org.hibernate.SQL] - insert into spaces (id, version, type, prefix_code, name, description, guest_allowed, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:33,676 [main] DEBUG [org.hibernate.SQL] - call identity()
+2016-11-24 14:39:33,729 [main] DEBUG [org.hibernate.SQL] - insert into space_sequence (next_seq_num, id) values (?, ?)
+2016-11-24 14:39:33,743 [main] DEBUG [org.hibernate.SQL] - insert into users (id, type, parent, login_name, name, password, email, locale, locked, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:33,743 [main] DEBUG [org.hibernate.SQL] - call identity()
+2016-11-24 14:39:33,744 [main] DEBUG [org.hibernate.SQL] - insert into user_space_roles (id, user_id, space_id, role_key) values (null, ?, ?, ?)
+2016-11-24 14:39:33,744 [main] DEBUG [org.hibernate.SQL] - call identity()
+2016-11-24 14:39:33,797 [main] DEBUG [org.hibernate.SQL] - delete from user_space_roles where id=?
+2016-11-24 14:39:33,801 [main] INFO [info.jtrac.JtracTest] - Deleted 0 rows from table history
+2016-11-24 14:39:33,801 [main] INFO [info.jtrac.JtracTest] - Deleted 0 rows from table items
+2016-11-24 14:39:33,801 [main] INFO [info.jtrac.JtracTest] - Deleted 1 rows from table spaces
+2016-11-24 14:39:33,801 [main] INFO [info.jtrac.JtracTest] - Deleted 1 rows from table metadata
+2016-11-24 14:39:33,801 [main] INFO [info.jtrac.JtracTest] - Deleted 1 rows from table space_sequence
+2016-11-24 14:39:33,805 [main] INFO [info.jtrac.JtracTest] - Deleted 0 rows from table history
+2016-11-24 14:39:33,805 [main] INFO [info.jtrac.JtracTest] - Deleted 0 rows from table items
+2016-11-24 14:39:33,805 [main] INFO [info.jtrac.JtracTest] - Deleted 0 rows from table spaces
+2016-11-24 14:39:33,805 [main] INFO [info.jtrac.JtracTest] - Deleted 0 rows from table metadata
+2016-11-24 14:39:33,805 [main] INFO [info.jtrac.JtracTest] - Deleted 0 rows from table space_sequence
+2016-11-24 14:39:33,812 [main] DEBUG [org.hibernate.SQL] - insert into metadata (id, version, type, name, description, parent_id, xml_string) values (null, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:33,812 [main] DEBUG [org.hibernate.SQL] - call identity()
+2016-11-24 14:39:33,816 [main] DEBUG [org.hibernate.SQL] - insert into spaces (id, version, type, prefix_code, name, description, guest_allowed, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:33,816 [main] DEBUG [org.hibernate.SQL] - call identity()
+2016-11-24 14:39:33,821 [main] DEBUG [org.hibernate.SQL] - insert into space_sequence (next_seq_num, id) values (?, ?)
+2016-11-24 14:39:33,821 [main] DEBUG [org.hibernate.SQL] - insert into metadata (id, version, type, name, description, parent_id, xml_string) values (null, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:33,822 [main] DEBUG [org.hibernate.SQL] - call identity()
+2016-11-24 14:39:33,825 [main] DEBUG [org.hibernate.SQL] - insert into spaces (id, version, type, prefix_code, name, description, guest_allowed, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:33,825 [main] DEBUG [org.hibernate.SQL] - call identity()
+2016-11-24 14:39:33,826 [main] DEBUG [org.hibernate.SQL] - insert into space_sequence (next_seq_num, id) values (?, ?)
+2016-11-24 14:39:33,827 [main] DEBUG [org.hibernate.SQL] - insert into users (id, type, parent, login_name, name, password, email, locale, locked, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:33,829 [main] WARN [org.hibernate.util.JDBCExceptionReporter] - SQL Error: -104, SQLState: 23000
+2016-11-24 14:39:33,829 [main] ERROR [org.hibernate.util.JDBCExceptionReporter] - Unique constraint violation: SYS_CT_66 in statement [insert into users (id, type, parent, login_name, name, password, email, locale, locked, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+2016-11-24 14:39:33,839 [main] DEBUG [org.hibernate.SQL] - insert into users (id, type, parent, login_name, name, password, email, locale, locked, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:33,839 [main] WARN [org.hibernate.util.JDBCExceptionReporter] - SQL Error: -104, SQLState: 23000
+2016-11-24 14:39:33,839 [main] ERROR [org.hibernate.util.JDBCExceptionReporter] - Unique constraint violation: SYS_CT_66 in statement [insert into users (id, type, parent, login_name, name, password, email, locale, locked, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+2016-11-24 14:39:33,972 [main] DEBUG [org.hibernate.SQL] - select config0_.param as param12_0_, config0_.value as value12_0_ from config config0_ where config0_.param=?
+2016-11-24 14:39:33,974 [main] DEBUG [org.hibernate.SQL] - select this_.param as param12_0_, this_.value as value12_0_ from config this_
+2016-11-24 14:39:33,974 [main] WARN [info.jtrac.mail.MailSender] - 'mail.server.host' config is null, mail sender not initialized
+2016-11-24 14:39:33,974 [main] INFO [info.jtrac.mail.MailSender] - email hyperlink base url set to 'http://localhost/jtrac/'
+2016-11-24 14:39:33,979 [main] DEBUG [org.hibernate.SQL] - insert into config (value, param) values (?, ?)
+2016-11-24 14:39:33,979 [main] DEBUG [org.hibernate.SQL] - insert into metadata (id, version, type, name, description, parent_id, xml_string) values (null, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:33,980 [main] DEBUG [org.hibernate.SQL] - call identity()
+2016-11-24 14:39:33,984 [main] DEBUG [org.hibernate.SQL] - insert into spaces (id, version, type, prefix_code, name, description, guest_allowed, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:33,985 [main] DEBUG [org.hibernate.SQL] - call identity()
+2016-11-24 14:39:33,986 [main] DEBUG [org.hibernate.SQL] - insert into space_sequence (next_seq_num, id) values (?, ?)
+2016-11-24 14:39:33,986 [main] DEBUG [org.hibernate.SQL] - insert into users (id, type, parent, login_name, name, password, email, locale, locked, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:33,988 [main] WARN [org.hibernate.util.JDBCExceptionReporter] - SQL Error: -104, SQLState: 23000
+2016-11-24 14:39:33,988 [main] ERROR [org.hibernate.util.JDBCExceptionReporter] - Unique constraint violation: SYS_CT_66 in statement [insert into users (id, type, parent, login_name, name, password, email, locale, locked, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+2016-11-24 14:39:34,004 [main] DEBUG [org.hibernate.SQL] - insert into metadata (id, version, type, name, description, parent_id, xml_string) values (null, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:34,005 [main] DEBUG [org.hibernate.SQL] - call identity()
+2016-11-24 14:39:34,008 [main] DEBUG [org.hibernate.SQL] - insert into spaces (id, version, type, prefix_code, name, description, guest_allowed, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:34,009 [main] DEBUG [org.hibernate.SQL] - call identity()
+2016-11-24 14:39:34,011 [main] DEBUG [org.hibernate.SQL] - insert into space_sequence (next_seq_num, id) values (?, ?)
+2016-11-24 14:39:34,012 [main] DEBUG [org.hibernate.SQL] - insert into users (id, type, parent, login_name, name, password, email, locale, locked, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:34,012 [main] WARN [org.hibernate.util.JDBCExceptionReporter] - SQL Error: -104, SQLState: 23000
+2016-11-24 14:39:34,012 [main] ERROR [org.hibernate.util.JDBCExceptionReporter] - Unique constraint violation: SYS_CT_66 in statement [insert into users (id, type, parent, login_name, name, password, email, locale, locked, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+2016-11-24 14:39:34,021 [main] DEBUG [org.hibernate.SQL] - insert into metadata (id, version, type, name, description, parent_id, xml_string) values (null, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:34,021 [main] DEBUG [org.hibernate.SQL] - call identity()
+2016-11-24 14:39:34,023 [main] DEBUG [org.hibernate.SQL] - insert into spaces (id, version, type, prefix_code, name, description, guest_allowed, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:34,023 [main] DEBUG [org.hibernate.SQL] - call identity()
+2016-11-24 14:39:34,024 [main] DEBUG [org.hibernate.SQL] - insert into space_sequence (next_seq_num, id) values (?, ?)
+2016-11-24 14:39:34,024 [main] DEBUG [org.hibernate.SQL] - insert into users (id, type, parent, login_name, name, password, email, locale, locked, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:34,025 [main] WARN [org.hibernate.util.JDBCExceptionReporter] - SQL Error: -104, SQLState: 23000
+2016-11-24 14:39:34,025 [main] ERROR [org.hibernate.util.JDBCExceptionReporter] - Unique constraint violation: SYS_CT_66 in statement [insert into users (id, type, parent, login_name, name, password, email, locale, locked, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+2016-11-24 14:39:34,038 [main] DEBUG [org.hibernate.SQL] - select user1_.id as id6_, user1_.type as type6_, user1_.parent as parent6_, user1_.login_name as login4_6_, user1_.name as name6_, user1_.password as password6_, user1_.email as email6_, user1_.locale as locale6_, user1_.locked as locked6_, user1_.metadata_id as metadata10_6_ from user_space_roles userspacer0_ inner join users user1_ on userspacer0_.user_id=user1_.id where (userspacer0_.space_id is null) and userspacer0_.role_key=?
+2016-11-24 14:39:34,044 [main] DEBUG [org.hibernate.SQL] - insert into metadata (id, version, type, name, description, parent_id, xml_string) values (null, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:34,044 [main] DEBUG [org.hibernate.SQL] - call identity()
+2016-11-24 14:39:34,047 [main] DEBUG [org.hibernate.SQL] - insert into spaces (id, version, type, prefix_code, name, description, guest_allowed, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:34,047 [main] DEBUG [org.hibernate.SQL] - call identity()
+2016-11-24 14:39:34,047 [main] DEBUG [org.hibernate.SQL] - insert into space_sequence (next_seq_num, id) values (?, ?)
+2016-11-24 14:39:34,048 [main] DEBUG [org.hibernate.SQL] - insert into users (id, type, parent, login_name, name, password, email, locale, locked, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:34,048 [main] WARN [org.hibernate.util.JDBCExceptionReporter] - SQL Error: -104, SQLState: 23000
+2016-11-24 14:39:34,048 [main] ERROR [org.hibernate.util.JDBCExceptionReporter] - Unique constraint violation: SYS_CT_66 in statement [insert into users (id, type, parent, login_name, name, password, email, locale, locked, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+2016-11-24 14:39:34,054 [main] DEBUG [org.hibernate.SQL] - insert into metadata (id, version, type, name, description, parent_id, xml_string) values (null, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:34,055 [main] DEBUG [org.hibernate.SQL] - call identity()
+2016-11-24 14:39:34,056 [main] DEBUG [org.hibernate.SQL] - insert into spaces (id, version, type, prefix_code, name, description, guest_allowed, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:34,057 [main] DEBUG [org.hibernate.SQL] - call identity()
+2016-11-24 14:39:34,061 [main] DEBUG [org.hibernate.SQL] - select space0_.id as id8_0_, metadata1_.id as id10_1_, space0_.version as version8_0_, space0_.type as type8_0_, space0_.prefix_code as prefix4_8_0_, space0_.name as name8_0_, space0_.description as descript6_8_0_, space0_.guest_allowed as guest7_8_0_, space0_.metadata_id as metadata8_8_0_, metadata1_.version as version10_1_, metadata1_.type as type10_1_, metadata1_.name as name10_1_, metadata1_.description as descript5_10_1_, metadata1_.parent_id as parent6_10_1_, metadata1_.xml_string as xml7_10_1_ from spaces space0_ inner join metadata metadata1_ on space0_.metadata_id=metadata1_.id where space0_.guest_allowed=1
+2016-11-24 14:39:34,067 [main] DEBUG [org.hibernate.SQL] - insert into users (id, type, parent, login_name, name, password, email, locale, locked, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:34,067 [main] DEBUG [org.hibernate.SQL] - call identity()
+2016-11-24 14:39:34,068 [main] DEBUG [org.hibernate.SQL] - insert into user_space_roles (id, user_id, space_id, role_key) values (null, ?, ?, ?)
+2016-11-24 14:39:34,068 [main] DEBUG [org.hibernate.SQL] - call identity()
+2016-11-24 14:39:34,072 [main] DEBUG [org.hibernate.SQL] - select userspacer0_.id as id7_0_, space1_.id as id8_1_, metadata2_.id as id10_2_, userspacer0_.user_id as user2_7_0_, userspacer0_.space_id as space3_7_0_, userspacer0_.role_key as role4_7_0_, space1_.version as version8_1_, space1_.type as type8_1_, space1_.prefix_code as prefix4_8_1_, space1_.name as name8_1_, space1_.description as descript6_8_1_, space1_.guest_allowed as guest7_8_1_, space1_.metadata_id as metadata8_8_1_, metadata2_.version as version10_2_, metadata2_.type as type10_2_, metadata2_.name as name10_2_, metadata2_.description as descript5_10_2_, metadata2_.parent_id as parent6_10_2_, metadata2_.xml_string as xml7_10_2_ from user_space_roles userspacer0_ left outer join spaces space1_ on userspacer0_.space_id=space1_.id left outer join metadata metadata2_ on space1_.metadata_id=metadata2_.id where userspacer0_.user_id=? order by space1_.name
+2016-11-24 14:39:34,079 [main] DEBUG [org.hibernate.SQL] - insert into metadata (id, version, type, name, description, parent_id, xml_string) values (null, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:34,080 [main] DEBUG [org.hibernate.SQL] - call identity()
+2016-11-24 14:39:34,081 [main] DEBUG [org.hibernate.SQL] - insert into spaces (id, version, type, prefix_code, name, description, guest_allowed, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:34,082 [main] DEBUG [org.hibernate.SQL] - call identity()
+2016-11-24 14:39:34,082 [main] DEBUG [org.hibernate.SQL] - insert into space_sequence (next_seq_num, id) values (?, ?)
+2016-11-24 14:39:34,082 [main] DEBUG [org.hibernate.SQL] - insert into users (id, type, parent, login_name, name, password, email, locale, locked, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:34,083 [main] WARN [org.hibernate.util.JDBCExceptionReporter] - SQL Error: -104, SQLState: 23000
+2016-11-24 14:39:34,083 [main] ERROR [org.hibernate.util.JDBCExceptionReporter] - Unique constraint violation: SYS_CT_66 in statement [insert into users (id, type, parent, login_name, name, password, email, locale, locked, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+2016-11-24 14:39:34,087 [main] DEBUG [org.hibernate.SQL] - insert into users (id, type, parent, login_name, name, password, email, locale, locked, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:34,088 [main] WARN [org.hibernate.util.JDBCExceptionReporter] - SQL Error: -104, SQLState: 23000
+2016-11-24 14:39:34,088 [main] ERROR [org.hibernate.util.JDBCExceptionReporter] - Unique constraint violation: SYS_CT_66 in statement [insert into users (id, type, parent, login_name, name, password, email, locale, locked, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+2016-11-24 14:39:34,093 [main] DEBUG [org.hibernate.SQL] - insert into metadata (id, version, type, name, description, parent_id, xml_string) values (null, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:34,094 [main] DEBUG [org.hibernate.SQL] - call identity()
+2016-11-24 14:39:34,095 [main] DEBUG [org.hibernate.SQL] - insert into spaces (id, version, type, prefix_code, name, description, guest_allowed, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:34,095 [main] DEBUG [org.hibernate.SQL] - call identity()
+2016-11-24 14:39:34,096 [main] DEBUG [org.hibernate.SQL] - insert into space_sequence (next_seq_num, id) values (?, ?)
+2016-11-24 14:39:34,096 [main] DEBUG [org.hibernate.SQL] - insert into users (id, type, parent, login_name, name, password, email, locale, locked, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-11-24 14:39:34,096 [main] WARN [org.hibernate.util.JDBCExceptionReporter] - SQL Error: -104, SQLState: 23000
+2016-11-24 14:39:34,096 [main] ERROR [org.hibernate.util.JDBCExceptionReporter] - Unique constraint violation: SYS_CT_66 in statement [insert into users (id, type, parent, login_name, name, password, email, locale, locked, metadata_id) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+2016-11-24 14:39:34,100 [main] DEBUG [org.hibernate.SQL] - select config0_.param as param12_0_, config0_.value as value12_0_ from config config0_ where config0_.param=?
+</pre>
+</body>
+</html>

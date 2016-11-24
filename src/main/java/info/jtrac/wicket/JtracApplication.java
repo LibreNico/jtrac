@@ -302,6 +302,17 @@ public class JtracApplication extends WebApplication {
         mount(new IndexedParamUrlCodingStrategy("/item", ItemViewPage.class));
 
         getDebugSettings().setAjaxDebugModeEnabled(false);
+
+/*
+        User adminUser = getJtrac().loadUser("admin");
+        if(adminUser == null){
+            adminUser = new User();
+            adminUser.setName("admin");
+            adminUser.setPassword("admin");
+            //adminUser.addSpaceWithRole(null , Role.ROLE_ADMIN);
+            getJtrac().storeUser(adminUser, null, true);
+        }*/
+
     }
     
     /* (non-Javadoc)

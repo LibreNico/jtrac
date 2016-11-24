@@ -98,7 +98,7 @@ public interface JtracDao {
     List<StoredSearch> findAllStoredSearch();
     void storeStoredSearch(StoredSearch storedSearch);
 
-    StoredSearch loadStoredSearch(String name);
+    StoredSearch loadStoredSearch(Long id);
 
     void removeStoredSearch(StoredSearch storedSearchToDel);
 }

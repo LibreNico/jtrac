@@ -824,13 +824,9 @@ public class JtracImpl implements Jtrac {
     }
 
     @Override
-    public Map<String, String> loadAllStoredSearch() {
-        List<StoredSearch> list = dao.findAllStoredSearch();
-        Map<String, String> allLinks = new LinkedHashMap<String, String>(list.size());
-        for (StoredSearch storedSearch : list) {
-            allLinks.put(storedSearch.getName(), storedSearch.getQuery());
-        }
-        return allLinks;
+    public List<StoredSearch>  loadAllStoredSearch() {
+
+        return dao.findAllStoredSearch();
     }
 
     //==========================================================================
@@ -841,8 +837,8 @@ public class JtracImpl implements Jtrac {
     }
 
     @Override
-    public void removeStoredSearch(String name) {
-        StoredSearch storedSearchToDel = dao.loadStoredSearch(name);
+    public void removeStoredSearch(Long id) {
+        StoredSearch storedSearchToDel = dao.loadStoredSearch(id);
         dao.removeStoredSearch(storedSearchToDel);
     }
 

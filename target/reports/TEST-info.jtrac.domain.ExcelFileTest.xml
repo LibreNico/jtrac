@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="WJANBEPB714BL" name="info.jtrac.domain.ExcelFileTest" skipped="0" tests="1" time="0.071" timestamp="2016-11-24T13:39:35">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"></property>
+    <property name="sun.java.launcher" value="SUN_STANDARD"></property>
+    <property name="emma:emma_ant:jar" value="C:\Users\ncrappe\.m2\repository\emma\emma_ant\2.0.5312\emma_ant-2.0.5312.jar"></property>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"></property>
+    <property name="os.name" value="Windows 7"></property>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_73\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_73\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_73\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_73\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_73\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_73\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_73\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_73\jre\classes"></property>
+    <property name="log4j:log4j:jar" value="C:\Users\ncrappe\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar"></property>
+    <property name="sun.desktop" value="windows"></property>
+    <property name="org.springframework:spring-webmvc:jar" value="C:\Users\ncrappe\.m2\repository\org\springframework\spring-webmvc\2.5.1\spring-webmvc-2.5.1.jar"></property>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"></property>
+    <property name="ant.home" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.1.1\lib\ant"></property>
+    <property name="java.runtime.version" value="1.8.0_73-b02"></property>
+    <property name="oro:oro:jar" value="C:\Users\ncrappe\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar"></property>
+    <property name="commons-cli:commons-cli:jar" value="C:\Users\ncrappe\.m2\repository\commons-cli\commons-cli\1.0\commons-cli-1.0.jar"></property>
+    <property name="user.name" value="ncrappe"></property>
+    <property name="org.acegisecurity:acegi-security:jar" value="C:\Users\ncrappe\.m2\repository\org\acegisecurity\acegi-security\1.0.2\acegi-security-1.0.2.jar"></property>
+    <property name="asm:asm:jar" value="C:\Users\ncrappe\.m2\repository\asm\asm\1.5.3\asm-1.5.3.jar"></property>
+    <property name="checkstyle:checkstyle:jar" value="C:\Users\ncrappe\.m2\repository\checkstyle\checkstyle\4.3\checkstyle-4.3.jar"></property>
+    <property name="debug" value="true"></property>
+    <property name="commons-lang:commons-lang:jar" value="C:\Users\ncrappe\.m2\repository\commons-lang\commons-lang\1.0\commons-lang-1.0.jar"></property>
+    <property name="ant.file.type.jtrac" value="file"></property>
+    <property name="org.apache.lucene:lucene-core:jar" value="C:\Users\ncrappe\.m2\repository\org\apache\lucene\lucene-core\2.0.0\lucene-core-2.0.0.jar"></property>
+    <property name="hsqldb:hsqldb:jar" value="C:\Users\ncrappe\.m2\repository\hsqldb\hsqldb\1.8.0.1\hsqldb-1.8.0.1.jar"></property>
+    <property name="maven.repo.local" value="C:\Users\ncrappe/.m2/repository"></property>
+    <property name="net.sf.ehcache:ehcache:jar" value="C:\Users\ncrappe\.m2\repository\net\sf\ehcache\ehcache\1.2.4\ehcache-1.2.4.jar"></property>
+    <property name="user.language" value="en"></property>
+    <property name="ant.file.jtrac" value="C:\workspace\jtrac\build.xml"></property>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_73\jre\bin"></property>
+    <property name="jaxen:jaxen:jar" value="C:\Users\ncrappe\.m2\repository\jaxen\jaxen\1.1-beta-9\jaxen-1.1-beta-9.jar"></property>
+    <property name="ant.project.name" value="jtrac"></property>
+    <property name="java.version" value="1.8.0_73"></property>
+    <property name="user.timezone" value=""></property>
+    <property name="sun.arch.data.model" value="32"></property>
+    <property name="emma.coverage.out.file" value="C:\workspace\jtrac/target/coverage.emma"></property>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_73\jre\lib\endorsed"></property>
+    <property name="org.springframework:spring-test:jar" value="C:\Users\ncrappe\.m2\repository\org\springframework\spring-test\2.5.1\spring-test-2.5.1.jar"></property>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"></property>
+    <property name="sun.jnu.encoding" value="Cp1252"></property>
+    <property name="file.encoding.pkg" value="sun.io"></property>
+    <property name="file.separator" value="\"></property>
+    <property name="java.specification.name" value="Java Platform API Specification"></property>
+    <property name="java.class.version" value="52.0"></property>
+    <property name="user.country" value="AU"></property>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_73\jre"></property>
+    <property name="org.springmodules:spring-modules-lucene:jar" value="C:\Users\ncrappe\.m2\repository\org\springmodules\spring-modules-lucene\0.8\spring-modules-lucene-0.8.jar"></property>
+    <property name="java.vm.info" value="mixed mode"></property>
+    <property name="ant.file" value="C:\workspace\jtrac\build.xml"></property>
+    <property name="os.version" value="6.1"></property>
+    <property name="commons-logging:commons-logging:jar" value="C:\Users\ncrappe\.m2\repository\commons-logging\commons-logging\1.0.3\commons-logging-1.0.3.jar"></property>
+    <property name="commons-dbcp:commons-dbcp:jar" value="C:\Users\ncrappe\.m2\repository\commons-dbcp\commons-dbcp\1.2.2\commons-dbcp-1.2.2.jar"></property>
+    <property name="jfree:jfreechart:jar" value="C:\Users\ncrappe\.m2\repository\jfree\jfreechart\1.0.0\jfreechart-1.0.0.jar"></property>
+    <property name="path.separator" value=";"></property>
+    <property name="java.vm.version" value="25.73-b02"></property>
+    <property name="javax.mail:mail:jar" value="C:\Users\ncrappe\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar"></property>
+    <property name="cglib:cglib:jar" value="C:\Users\ncrappe\.m2\repository\cglib\cglib\2.1_3\cglib-2.1_3.jar"></property>
+    <property name="user.variant" value=""></property>
+    <property name="org.beanshell:bsh:jar" value="C:\Users\ncrappe\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar"></property>
+    <property name="ant.library.dir" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.1.1\lib\ant\lib"></property>
+    <property name="org.openqa.selenium.server:selenium-server:jar" value="C:\Users\ncrappe\.m2\repository\org\openqa\selenium\server\selenium-server\0.9.0\selenium-server-0.9.0.jar"></property>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"></property>
+    <property name="jfree:jcommon:jar" value="C:\Users\ncrappe\.m2\repository\jfree\jcommon\1.0.0\jcommon-1.0.0.jar"></property>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"></property>
+    <property name="junit:junit:jar" value="C:\Users\ncrappe\.m2\repository\junit\junit\3.7\junit-3.7.jar"></property>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"></property>
+    <property name="org.slf4j:slf4j-log4j12:jar" value="C:\Users\ncrappe\.m2\repository\org\slf4j\slf4j-log4j12\1.4.2\slf4j-log4j12-1.4.2.jar"></property>
+    <property name="javax.activation:activation:jar" value="C:\Users\ncrappe\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar"></property>
+    <property name="user.script" value=""></property>
+    <property name="org.springframework:spring:jar" value="C:\Users\ncrappe\.m2\repository\org\springframework\spring\2.5.1\spring-2.5.1.jar"></property>
+    <property name="cas:casclient:jar" value="C:\Users\ncrappe\.m2\repository\cas\casclient\2.1.1\casclient-2.1.1.jar"></property>
+    <property name="user.home" value="C:\Users\ncrappe"></property>
+    <property name="java.specification.vendor" value="Oracle Corporation"></property>
+    <property name="emma:emma:jar" value="C:\Users\ncrappe\.m2\repository\emma\emma\2.0.5312\emma-2.0.5312.jar"></property>
+    <property name="poi:poi:jar" value="C:\Users\ncrappe\.m2\repository\poi\poi\2.5.1-final-20040804\poi-2.5.1-final-20040804.jar"></property>
+    <property name="java.vendor.url" value="http://java.oracle.com/"></property>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_73\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.8.0_73\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Common Files\Ulead Systems\MPEG;C:\Program Files\SafeNet\Authentication\SAC\x64;C:\Program Files\SafeNet\Authentication\SAC\x32;C:\oraclejnj\product32\11.2.0\client_1\bin;C:\Program Files\Common Files\Hitachi ID\;C:\apache-ant-1.9.6\bin;C:\Program Files\TortoiseSVN\bin;C:\mvn\apache-maven-2.2.1\bin;C:\Program Files (x86)\WebEx\PTools020000000;C:\Program Files\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\ncrappe\AppData\Roaming\npm;."></property>
+    <property name="java.vm.vendor" value="Oracle Corporation"></property>
+    <property name="dom4j:dom4j:jar" value="C:\Users\ncrappe\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar"></property>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"></property>
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014"></property>
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner info.jtrac.domain.ExcelFileTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\workspace\jtrac\target\reports\TEST-info.jtrac.domain.ExcelFileTest.xml crashfile=C:\workspace\jtrac\target\junitvmwatcher6393371300961056691.properties propsfile=C:\workspace\jtrac\target\junit438134421546934563.properties"></property>
+    <property name="java.class.path" value="C:\workspace\jtrac\target\instr-classes;C:\workspace\jtrac\target\classes;C:\workspace\jtrac\target\test-classes;C:\Users\ncrappe\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\ncrappe\.m2\repository\jaxen\jaxen\1.1-beta-9\jaxen-1.1-beta-9.jar;C:\Users\ncrappe\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\ncrappe\.m2\repository\org\acegisecurity\acegi-security\1.0.2\acegi-security-1.0.2.jar;C:\Users\ncrappe\.m2\repository\commons-lang\commons-lang\2.1\commons-lang-2.1.jar;C:\Users\ncrappe\.m2\repository\commons-codec\commons-codec\1.3\commons-codec-1.3.jar;C:\Users\ncrappe\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\ncrappe\.m2\repository\commons-collections\commons-collections\3.1\commons-collections-3.1.jar;C:\Users\ncrappe\.m2\repository\javax\servlet\servlet-api\2.4\servlet-api-2.4.jar;C:\Users\ncrappe\.m2\repository\jfree\jfreechart\1.0.0\jfreechart-1.0.0.jar;C:\Users\ncrappe\.m2\repository\jfree\jcommon\1.0.0\jcommon-1.0.0.jar;C:\Users\ncrappe\.m2\repository\org\hibernate\hibernate\3.2.5.ga\hibernate-3.2.5.ga.jar;C:\Users\ncrappe\.m2\repository\net\sf\ehcache\ehcache\1.2.4\ehcache-1.2.4.jar;C:\Users\ncrappe\.m2\repository\antlr\antlr\2.7.6\antlr-2.7.6.jar;C:\Users\ncrappe\.m2\repository\cglib\cglib\2.1_3\cglib-2.1_3.jar;C:\Users\ncrappe\.m2\repository\asm\asm\1.5.3\asm-1.5.3.jar;C:\Users\ncrappe\.m2\repository\geronimo-spec\geronimo-spec-jta\1.0.1B-rc4\geronimo-spec-jta-1.0.1B-rc4.jar;C:\Users\ncrappe\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar;C:\Users\ncrappe\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\ncrappe\.m2\repository\org\springframework\spring\2.5.1\spring-2.5.1.jar;C:\Users\ncrappe\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar;C:\Users\ncrappe\.m2\repository\org\springframework\spring-webmvc\2.5.1\spring-webmvc-2.5.1.jar;C:\Users\ncrappe\.m2\repository\org\springframework\spring-test\2.5.1\spring-test-2.5.1.jar;C:\Users\ncrappe\.m2\repository\org\springmodules\spring-modules-lucene\0.8\spring-modules-lucene-0.8.jar;C:\Users\ncrappe\.m2\repository\org\apache\lucene\lucene-core\2.0.0\lucene-core-2.0.0.jar;C:\Users\ncrappe\.m2\repository\org\apache\wicket\wicket\1.3.7\wicket-1.3.7.jar;C:\Users\ncrappe\.m2\repository\org\slf4j\slf4j-api\1.4.2\slf4j-api-1.4.2.jar;C:\Users\ncrappe\.m2\repository\org\apache\wicket\wicket-extensions\1.3.7\wicket-extensions-1.3.7.jar;C:\Users\ncrappe\.m2\repository\org\slf4j\slf4j-log4j12\1.4.2\slf4j-log4j12-1.4.2.jar;C:\Users\ncrappe\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar;C:\Users\ncrappe\.m2\repository\org\slf4j\jcl104-over-slf4j\1.4.2\jcl104-over-slf4j-1.4.2.jar;C:\Users\ncrappe\.m2\repository\poi\poi\2.5.1-final-20040804\poi-2.5.1-final-20040804.jar;C:\Users\ncrappe\.m2\repository\org\tmate\javasvn\1.0.3\javasvn-1.0.3.jar;C:\Users\ncrappe\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\ncrappe\.m2\repository\hsqldb\hsqldb\1.8.0.1\hsqldb-1.8.0.1.jar;C:\Users\ncrappe\.m2\repository\cas\casclient\2.1.1\casclient-2.1.1.jar;C:\Users\ncrappe\.m2\repository\commons-dbcp\commons-dbcp\1.2.2\commons-dbcp-1.2.2.jar;C:\Users\ncrappe\.m2\repository\commons-pool\commons-pool\1.3\commons-pool-1.3.jar;C:\Users\ncrappe\.m2\repository\org\openqa\selenium\client-drivers\selenium-java-client-driver\0.9.0\selenium-java-client-driver-0.9.0.jar;C:\Users\ncrappe\.m2\repository\org\openqa\selenium\server\selenium-server\0.9.0\selenium-server-0.9.0.jar;C:\Users\ncrappe\.m2\repository\emma\emma\2.0.5312\emma-2.0.5312.jar;C:\Users\ncrappe\.m2\repository\emma\emma_ant\2.0.5312\emma_ant-2.0.5312.jar;C:\Users\ncrappe\.m2\repository\ant\ant\1.6.3\ant-1.6.3.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.1.1\lib\ant\lib\ant-launcher.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.1.1\lib\ant\lib\ant.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.1.1\lib\ant\lib\ant-junit.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.1.1\lib\ant\lib\ant-junit4.jar"></property>
+    <property name="org.slf4j:slf4j-api:jar" value="C:\Users\ncrappe\.m2\repository\org\slf4j\slf4j-api\1.4.2\slf4j-api-1.4.2.jar"></property>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"></property>
+    <property name="ant.file.type" value="file"></property>
+    <property name="java.vm.specification.version" value="1.8"></property>
+    <property name="org.hibernate:hibernate:jar" value="C:\Users\ncrappe\.m2\repository\org\hibernate\hibernate\3.2.5.ga\hibernate-3.2.5.ga.jar"></property>
+    <property name="sun.os.patch.level" value="Service Pack 1"></property>
+    <property name="sun.cpu.endian" value="little"></property>
+    <property name="java.io.tmpdir" value="C:\Users\ncrappe\AppData\Local\Temp\"></property>
+    <property name="javax.servlet:servlet-api:jar" value="C:\Users\ncrappe\.m2\repository\javax\servlet\servlet-api\2.4\servlet-api-2.4.jar"></property>
+    <property name="org.tmate:javasvn:jar" value="C:\Users\ncrappe\.m2\repository\org\tmate\javasvn\1.0.3\javasvn-1.0.3.jar"></property>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"></property>
+    <property name="ant:ant:jar" value="C:\Users\ncrappe\.m2\repository\ant\ant\1.6.3\ant-1.6.3.jar"></property>
+    <property name="org.apache.wicket:wicket-extensions:jar" value="C:\Users\ncrappe\.m2\repository\org\apache\wicket\wicket-extensions\1.3.7\wicket-extensions-1.3.7.jar"></property>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"></property>
+    <property name="os.arch" value="x86"></property>
+    <property name="org.slf4j:jcl104-over-slf4j:jar" value="C:\Users\ncrappe\.m2\repository\org\slf4j\jcl104-over-slf4j\1.4.2\jcl104-over-slf4j-1.4.2.jar"></property>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_73\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"></property>
+    <property name="user.dir" value="C:\workspace\jtrac"></property>
+    <property name="emma.coverage.out.merge" value="true"></property>
+    <property name="antlr:antlr:jar" value="C:\Users\ncrappe\.m2\repository\antlr\antlr\2.7.6\antlr-2.7.6.jar"></property>
+    <property name="line.separator" value="
+"></property>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"></property>
+    <property name="commons-codec:commons-codec:jar" value="C:\Users\ncrappe\.m2\repository\commons-codec\commons-codec\1.3\commons-codec-1.3.jar"></property>
+    <property name="basedir" value="C:\workspace\jtrac"></property>
+    <property name="org.apache.wicket:wicket:jar" value="C:\Users\ncrappe\.m2\repository\org\apache\wicket\wicket\1.3.7\wicket-1.3.7.jar"></property>
+    <property name="ant.java.version" value="1.8"></property>
+    <property name="ant.core.lib" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.1.1\lib\ant\lib\ant.jar"></property>
+    <property name="mvn.inited" value="true"></property>
+    <property name="file.encoding" value="Cp1252"></property>
+    <property name="war.name" value="jtrac"></property>
+    <property name="geronimo-spec:geronimo-spec-jta:jar" value="C:\Users\ncrappe\.m2\repository\geronimo-spec\geronimo-spec-jta\1.0.1B-rc4\geronimo-spec-jta-1.0.1B-rc4.jar"></property>
+    <property name="java.specification.version" value="1.8"></property>
+    <property name="commons-pool:commons-pool:jar" value="C:\Users\ncrappe\.m2\repository\commons-pool\commons-pool\1.3\commons-pool-1.3.jar"></property>
+    <property name="ant.project.invoked-targets" value="all"></property>
+    <property name="commons-beanutils:commons-beanutils-core:jar" value="C:\Users\ncrappe\.m2\repository\commons-beanutils\commons-beanutils-core\1.7.0\commons-beanutils-core-1.7.0.jar"></property>
+    <property name="org.openqa.selenium.client-drivers:selenium-java-client-driver:jar" value="C:\Users\ncrappe\.m2\repository\org\openqa\selenium\client-drivers\selenium-java-client-driver\0.9.0\selenium-java-client-driver-0.9.0.jar"></property>
+    <property name="commons-collections:commons-collections:jar" value="C:\Users\ncrappe\.m2\repository\commons-collections\commons-collections\2.1\commons-collections-2.1.jar"></property>
+  </properties>
+  <testcase classname="info.jtrac.domain.ExcelFileTest" name="testLoadFile" time="0.001"></testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

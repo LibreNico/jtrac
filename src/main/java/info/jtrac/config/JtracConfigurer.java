@@ -227,6 +227,9 @@ public class JtracConfigurer extends PropertyPlaceholderConfigurer implements Se
         // finally set the property that spring is expecting, manually
         FileSystemResource fsr = new FileSystemResource(propsFile);
         setLocation(fsr);
+
+
+
     }
    
     private Properties loadProps(File file) throws Exception {

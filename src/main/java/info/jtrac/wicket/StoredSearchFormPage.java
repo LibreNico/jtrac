@@ -1,9 +1,8 @@
 package info.jtrac.wicket;
 
-import info.jtrac.domain.Config;
 import info.jtrac.domain.StoredSearch;
-import org.apache.wicket.markup.html.basic.Label;
 import org.apache.wicket.markup.html.form.Form;
+import org.apache.wicket.markup.html.form.HiddenField;
 import org.apache.wicket.markup.html.form.TextField;
 import org.apache.wicket.markup.html.link.Link;
 import org.apache.wicket.model.BoundCompoundPropertyModel;
@@ -21,8 +20,8 @@ public class StoredSearchFormPage extends BasePage {
      * @param name
      * @param query
      */
-    public StoredSearchFormPage(String name, String query) {
-        add(new StoredSearchForm("form", name, query));
+    public StoredSearchFormPage(String name, String query, Long id) {
+        add(new StoredSearchForm("form", name, query, id));
     }
 
     public StoredSearchFormPage() {
@@ -36,6 +35,7 @@ public class StoredSearchFormPage extends BasePage {
 
         private String name;
         private String query;
+        private Long idSearchLink;
 
         public String getName() {
             return name;
@@ -53,15 +53,16 @@ public class StoredSearchFormPage extends BasePage {
             this.query = query;
         }
 
-        public StoredSearchForm(String id) {
-            this(id, new String(), new String());
+        public StoredSearchForm(String pageId) {
+            this(pageId, new String(), new String(), new Long(-1));
         }
-        public StoredSearchForm(String id, final String name, final String query) {
+        public StoredSearchForm(String pageId, final String name, final String query, final Long idSearchLink) {
 
-            super(id);
+            super(pageId);
 
             this.name = name;
             this.query = query;
+            this.idSearchLink = idSearchLink;
 
             final BoundCompoundPropertyModel model = new BoundCompoundPropertyModel(this);
             setModel(model);
@@ -76,7 +77,7 @@ public class StoredSearchFormPage extends BasePage {
                     String warning = localize("storedsearch_form.line2");
                     ConfirmPage confirm = new ConfirmPage(StoredSearchFormPage.this, heading, warning, new String[] {line1}) {
                         public void onConfirm() {
-                            getJtrac().removeStoredSearch(name);
+                            getJtrac().removeStoredSearch(idSearchLink);
                             setResponsePage(new StoredSearchListPage(null));
                         }
                     };
@@ -90,6 +91,8 @@ public class StoredSearchFormPage extends BasePage {
             }
             add(delete);
 
+            final HiddenField idSearchLinkField =new HiddenField("idSearchLink");
+            add(idSearchLinkField);
 
             // nameField ======================================================
             final TextField nameField = new TextField("name");
@@ -113,8 +116,22 @@ public class StoredSearchFormPage extends BasePage {
 
         @Override
         protected void onSubmit() {
-            getJtrac().storeStoredSearch(new StoredSearch(name, query));
+            Long idLink = null;
+            if(!this.idSearchLink.equals(new Long(-1))){
+                idLink = this.idSearchLink;
+            }
+
+            System.out.println("idLink:"+String.valueOf(idLink));
+
+
+            getJtrac().storeStoredSearch(new StoredSearch(idLink, name, query));
             setResponsePage(new StoredSearchListPage(name));
         }
+
+        public void setId(long idSearchLink) {
+            this.idSearchLink = idSearchLink;
+        }
+
+
     }
 }
