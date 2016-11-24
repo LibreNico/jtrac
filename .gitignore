@@ -7,3 +7,4 @@ home/*
 .idea/
 .svn/
 etc/images/
+**/jetty/logs/

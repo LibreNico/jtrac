@@ -387,7 +387,7 @@ public class HibernateJtracDao extends HibernateDaoSupport implements JtracDao {
 
     @Override
     public List<StoredSearch> findAllStoredSearch() {
-        return getHibernateTemplate().find("select s from StoredSearch s order by s.name");
+        return getHibernateTemplate().loadAll(StoredSearch.class);
     }
 
     @Override
@@ -401,8 +401,8 @@ public class HibernateJtracDao extends HibernateDaoSupport implements JtracDao {
     }
 
     @Override
-    public StoredSearch loadStoredSearch(String name) {
-        return (StoredSearch) getHibernateTemplate().get(StoredSearch.class, name);
+    public StoredSearch loadStoredSearch(Long id) {
+        return (StoredSearch) getHibernateTemplate().get(StoredSearch.class, id);
     }
 
 
@@ -522,7 +522,7 @@ public class HibernateJtracDao extends HibernateDaoSupport implements JtracDao {
     //==========================================================================
     
     /**
-     * note that this is automatically configured to run on startup 
+     * note that this is automatically configured to run on startup
      * as a spring bean "init-method"
      */
     public void createSchema() {

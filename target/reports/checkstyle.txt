@@ -1,0 +1,561 @@
+Starting audit...
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\devmode\package.html:0: Missing package documentation file.
+C:\workspace\jtrac\src\main\java\info\jtrac\hibernate\HibernateJtracDao.java:0: File does not end with a newline.
+C:\workspace\jtrac\src\main\java\info\jtrac\util\ExcelUtils.java:0: File does not end with a newline.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ConfigFormPage.java:0: File does not end with a newline.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ConfigListPage.java:0: File does not end with a newline.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ConfigPasswordFormPage.java:0: File does not end with a newline.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\CustomFieldsFormPanel.java:0: File does not end with a newline.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemFormPage.java:0: File does not end with a newline.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemViewPanel.java:0: File does not end with a newline.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\JtracApplication.java:0: File does not end with a newline.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\StoredSearchFormPage.java:0: File does not end with a newline.
+C:\workspace\jtrac\src\main\java\info\jtrac\Jtrac.java:19: Using the '.*' form of import should be avoided - info.jtrac.domain.*.
+C:\workspace\jtrac\src\main\java\info\jtrac\JtracDao.java:19: Using the '.*' form of import should be avoided - info.jtrac.domain.*.
+C:\workspace\jtrac\src\main\java\info\jtrac\JtracImpl.java:19: Using the '.*' form of import should be avoided - info.jtrac.domain.*.
+C:\workspace\jtrac\src\main\java\info\jtrac\JtracImpl.java:57:33: Name 'logger' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.
+C:\workspace\jtrac\src\main\java\info\jtrac\JtracImpl.java:71:41: '5' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\JtracImpl.java:72:43: '30' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\JtracImpl.java:135:79: '24' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\JtracImpl.java:767:13: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\JtracImpl.java:772:13: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\config\DataSourceFactoryBean.java:188:49: '600000' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\config\JtracConfigurer.java:122:55: '9' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\config\JtracConfigurer.java:215: Comment matches to-do format 'TODO:'.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\AbstractItem.java:25:8: Unused import - java.util.HashMap.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\AbstractItem.java:156:36: '3' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\AbstractItem.java:552:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\AbstractItem.java:553:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\AbstractItem.java:554:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\AbstractItem.java:556:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\AbstractItem.java:557:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\AbstractItem.java:558:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\AbstractItem.java:559:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ColumnHeading.java:82: Missing a Javadoc comment.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ColumnHeading.java:223:5: Method length is 370 lines (max allowed is 150).
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ColumnHeading.java:229:22: '3' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ColumnHeading.java:237: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ColumnHeading.java:267:22: '4' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ColumnHeading.java:311:22: '6' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ColumnHeading.java:318: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ColumnHeading.java:321: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ColumnHeading.java:352:22: '7' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ColumnHeading.java:353:22: '5' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ColumnHeading.java:413: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ColumnHeading.java:454: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ColumnHeading.java:493: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ColumnHeading.java:525: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ColumnHeading.java:528: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ColumnHeading.java:565: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ColumnHeading.java:700:46: ')' is preceded with whitespace.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\Counts.java:44:28: '4' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ExcelFile.java:46:33: Name 'logger' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ExcelFile.java:103:17: switch without "default" clause.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ExcelFile.java:106:26: '3' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ExcelFile.java:111:26: '4' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ExcelFile.java:116:26: '5' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ExcelFile.java:118:26: '6' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ExcelFile.java:126:17: switch without "default" clause.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ExcelFile.java:366:21: switch without "default" clause.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ExcelFile.java:475:34: '80' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ExcelFile.java:476:40: '80' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\Field.java:122:27: '4' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\Field.java:129:22: '3' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\Field.java:130:22: '4' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\Field.java:131:22: '5' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\Field.java:132:22: '6' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\Field.java:133:22: '7' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\Field.java:284:29: '6' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\Field.java:288:29: '7' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\Field.java:292:29: '4' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\FilterCriteria.java:54: Missing a Javadoc comment.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\FilterCriteria.java:98:13: Conditional logic can be removed.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ItemSearch.java:44:28: '25' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ItemSearch.java:74:68: 'user' hides a field.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ItemSearch.java:76:46: '25' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ItemSearch.java:135:24: '25' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ItemTag.java:97:20: '7' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ItemTag.java:98:23: '31' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ItemTag.java:99:23: '31' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ItemUser.java:100:20: '7' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ItemUser.java:101:23: '31' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\ItemUser.java:102:23: '31' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\Metadata.java:479:44: '{' is followed by whitespace.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\State.java:275:8: Unused @param tag for 'fields'.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\StoredSearch.java:1: Line does not match expected header line of '/*'.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\UserSpaceRole.java:132:20: '7' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\UserSpaceRole.java:133:23: '31' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\UserSpaceRole.java:134:23: '31' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\domain\UserSpaceRole.java:135:23: '31' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\hibernate\HibernateJtracDao.java:20: Using the '.*' form of import should be avoided - info.jtrac.domain.*.
+C:\workspace\jtrac\src\main\java\info\jtrac\hibernate\HibernateJtracDao.java:79: Comment matches to-do format 'TODO:'.
+C:\workspace\jtrac\src\main\java\info\jtrac\hibernate\HibernateJtracDao.java:81: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\hibernate\HibernateJtracDao.java:350: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\hibernate\HibernateJtracDao.java:352: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\hibernate\HibernateJtracDao.java:466: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\hibernate\HibernateJtracDao.java:550: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:25:8: Unused import - java.util.Collections.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:50:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:52:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:53:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:54:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:55:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:56:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:57:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:59:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:60:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:61:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:62:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:63:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:64:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:65:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:66:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:67:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:68:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:69:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:70:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:71:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:72:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:73:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:74:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:75:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:76:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:77:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:78:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:79:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:80:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:81:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:82:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:84:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:85:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:86:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:87:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:88:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:89:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:90:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:91:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:92:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:93:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:94:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:95:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:96:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:97:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:98:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:99:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:100:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:101:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:102:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:103:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:104:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:105:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:106:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:107:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:108:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:109:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:110:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:111:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:112:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:113:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:114:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:115:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:116:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:117:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:119:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:120:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:121:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:122:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:123:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:124:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:125:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:126:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:128:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:129:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:130:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:131:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:132:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:133:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:134:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:135:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:136: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:136:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:137:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:138:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:139:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:140:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:142:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:143:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:144:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:145:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:146:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:148:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:149:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:150:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:151:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:152:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:152:49: '80' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:153:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:153:54: '80' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:154:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:155:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:156:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:157:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:158:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:160:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:161:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:162:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:163:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:164:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:165:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:166:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:167:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:168:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:169:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:170:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:171:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:172:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:173:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:174:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:175:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:176:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:177:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:178:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:180:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:181:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:182:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:183:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:184:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:185:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:186:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:187:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:188:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:189:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:190:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:191:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:192:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:193:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:194:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:195:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:196:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:197:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:198:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:199:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:200:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:201:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:202:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:203:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:205:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:206:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:207:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:208:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:209:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:210:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:211:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:212:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:213:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:214:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:215:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:216:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:217:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:218:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:219: 'if' construct must use '{}'s.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:219:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:220:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:221:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:222:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:223:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:224:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:226:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:227:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:228:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:229:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:230:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:231:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:232:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:233:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:234:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:235:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:236:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:237:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:238:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:239:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:240:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:241:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:242:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:243:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:244:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:245:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:246:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:247:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:248:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:249:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:250:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:251:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:252:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:253:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:254:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:255:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:256:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:257:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:258:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:259:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:260:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:261:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:262:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:263:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:264:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:265:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:266:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:267:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:268:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:269:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:271:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:272:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:273:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:274:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:275:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:276:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:277:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:278:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:279:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:280:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:281:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:282:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:283:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:284:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:285:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:286:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:287:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:288:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:289:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:290:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:291:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:293:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:294:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:295:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:296:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:297:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:298:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:299:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:300:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:301:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:302:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:303:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:304:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:305:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:306:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:307:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:308:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:309:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:310:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:311:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:312:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:312:17: '25' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:313:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:314:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:315:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:316:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:317:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:318:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:319:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:320:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:321:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:322:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:323:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:324:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:326:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:327:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:328:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:329:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:330:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:331:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:332:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:333:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:334:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:335:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:337:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:338:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:339:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:340:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:341:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:342:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:344:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:345:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:346:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:348:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:349:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java:350:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\util\ExcelUtils.java:51:50: '12' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\util\ExcelUtils.java:130:30: '4' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\util\ExcelUtils.java:133:30: '6' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\util\ItemUtils.java:53:33: Name 'logger' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.
+C:\workspace\jtrac\src\main\java\info\jtrac\util\ItemUtils.java:188: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\util\ItemUtils.java:216: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\util\ItemUtils.java:229: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\util\ItemUtils.java:234: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\web\RestMultiActionController.java:86:32: '401' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\web\RestMultiActionController.java:165:43: Must have at least one statement.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\BasePage.java:41:35: Name 'logger' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\BasePanel.java:34:35: Name 'logger' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\CasLoginErrorPage.java:19: Using the '.*' form of import should be avoided - info.jtrac.wicket.yui.*.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\CasLoginPage.java:19: Using the '.*' form of import should be avoided - info.jtrac.wicket.yui.*.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\CustomFieldsFormPanel.java:170:98: 'cast' is not followed by whitespace.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\DashboardPage.java:19: Using the '.*' form of import should be avoided - info.jtrac.domain.*.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\DashboardPage.java:23:8: Unused import - java.util.Map.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ExcelImportColumnPage.java:58:5: Method length is 162 lines (max allowed is 150).
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ExcelImportColumnPage.java:221: Missing a Javadoc comment.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ExcelImportPage.java:67:5: Method length is 176 lines (max allowed is 150).
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ExcelImportPage.java:101:17: switch without "default" clause.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ExcelImportPage.java:116:26: '3' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ExcelImportPage.java:123:26: '4' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ExcelImportPage.java:130:26: '5' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ExcelImportPage.java:137:26: '6' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ExcelImportPage.java:149:26: '7' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ExcelImportPage.java:157:26: '8' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ExcelImportPage.java:211:17: '3' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ExcelImportPage.java:212:17: '4' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ExcelImportPage.java:213:17: '5' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ExcelImportPage.java:214:17: '6' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ExcelImportPage.java:215:17: '7' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ExcelImportPage.java:216:17: '8' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ExcelImportPage.java:244: Missing a Javadoc comment.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ExcelImportPage.java:262: Missing a Javadoc comment.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ExcelImportPage.java:284: Missing a Javadoc comment.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ExcelImportRowPage.java:64:39: Name 'CLASS_SELECTED' must match pattern '^[a-z][a-zA-Z0-9]*$'.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndexRebuildPage.java:82:85: '5' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndexRebuildPage.java:95:60: '100' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:33:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:34:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:35:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:37:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:38:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:39:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:40:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:45:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:45:30: '(' is followed by whitespace.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:46:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:47:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:48:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:49:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:50:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:51:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:52: 'if' construct must use '{}'s.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:52:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:53:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:54: 'else' construct must use '{}'s.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:54:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:55:3: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:56:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:57:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:58:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:59:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:60: 'if' construct must use '{}'s.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:60:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:61:4: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:62: 'if' construct must use '{}'s.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:62:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:63:4: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:64: 'else' construct must use '{}'s.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:64:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java:65:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemFormPage.java:88:9: Method length is 187 lines (max allowed is 150).
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemFormPage.java:133:81: '+' should be on a new line.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemFormPage.java:149:110: '{' is followed by whitespace.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemListPanel.java:69:5: Method length is 280 lines (max allowed is 150).
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemListPanel.java:185: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemListPanel.java:275: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemListPanel.java:278: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemListPanel.java:290: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemListPanel.java:331: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemListPanel.java:335:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemSearchFormPanel.java:84:60: '5' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemSearchFormPanel.java:84:63: '10' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemSearchFormPanel.java:84:67: '15' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemSearchFormPanel.java:84:71: '25' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemSearchFormPanel.java:84:75: '50' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemSearchFormPanel.java:84:79: '100' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemSearchFormPanel.java:105:46: Must have at least one statement.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemSearchFormPanel.java:150: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemViewFormPanel.java:48:8: Unused import - org.apache.wicket.model.Model.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemViewFormPanel.java:84:1: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemViewPage.java:22:8: Unused import - java.util.Set.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemViewPage.java:26:8: Unused import - info.jtrac.domain.ItemItem.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemViewPage.java:33:8: Unused import - org.apache.wicket.markup.html.list.ListView.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemViewPage.java:95:13: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemViewPage.java:96:14: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemViewPage.java:106:85: '&&' should be on a new line.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemViewPage.java:107:9: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemViewPage.java:107:50: '&&' should be on a new line.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemViewPage.java:108:9: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemViewPage.java:108:35: '||' should be on a new line.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemViewPage.java:109:9: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemViewPage.java:109:41: '||' should be on a new line.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemViewPage.java:110:9: Line contains a tab character.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemViewPanel.java:27:8: Unused import - info.jtrac.util.ItemUtils.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemViewPanel.java:79:5: Method length is 178 lines (max allowed is 150).
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemViewPanel.java:245: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\JtracApplication.java:71:19: 'static' modifier out of order with the JLS suggestions.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\JtracApplication.java:71:33: Name 'logger' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\JtracApplication.java:122:5: Method length is 183 lines (max allowed is 150).
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\JtracApplication.java:144:79: '+' should be on a new line.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\JtracApplication.java:148:77: '+' should be on a new line.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\JtracApplication.java:158: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\JtracApplication.java:176: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\JtracApplication.java:192: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\JtracApplication.java:237:60: '+' should be on a new line.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\JtracApplication.java:254:79: '+' should be on a new line.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\JtracCheckBoxMultipleChoice.java:63:47: '6' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\JtracReloadingWicketFilter.java:33:33: Name 'banner' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\JtracSession.java:44:33: Name 'logger' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\JtracSession.java:70: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\JtracSession.java:87:109: '60' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\LoginPage.java:44:33: Name 'logger' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\LoginPage.java:181:59: '+' should be on a new line.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\LoginPage.java:182:70: '+' should be on a new line.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\LoginPage.java:183:76: '+' should be on a new line.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\LoginPage.java:184:42: '+' should be on a new line.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\LoginPage.java:197:78: '+' should be on a new line.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\LoginPage.java:211: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\LoginPage.java:212:38: '30' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\LoginPage.java:212:43: '24' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\LoginPage.java:212:48: '60' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\LoginPage.java:212:53: '60' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\LogoutPage.java:31:33: Name 'logger' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ReadOnlyRefreshingView.java:30: Type Javadoc comment is missing an @param <T> tag.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ReadOnlyRefreshingView.java:32:45: Name 'CLASS_ALT' must match pattern '^[a-z][a-zA-Z0-9]*$'.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ReadOnlyRefreshingView.java:33:45: Name 'CLASS_SELECTED' must match pattern '^[a-z][a-zA-Z0-9]*$'.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ReadOnlyRefreshingView.java:34:45: Name 'CLASS_ERROR_BACK' must match pattern '^[a-z][a-zA-Z0-9]*$'.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\RoleDeAllocatePanel.java:46: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SpaceAllocatePage.java:126:32: 'user' hides a field.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SpaceFieldFormPage.java:90:9: Method length is 186 lines (max allowed is 150).
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SpaceFieldFormPage.java:162:44: '4' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SpaceFieldOptionPage.java:84: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SpaceFormPage.java:143:37: '3' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SpaceFormPage.java:155:37: '10' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SpacePermissionsPage.java:56:9: Method length is 184 lines (max allowed is 150).
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SpacePermissionsPage.java:106: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SpacePermissionsPage.java:120: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\StoredSearchFormPage.java:1: Line does not match expected header line of '/*'.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\StoredSearchFormPage.java:120:32: 'idSearchLink' hides a field.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\StoredSearchListPage.java:1: Line does not match expected header line of '/*'.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\StoredSearchListPage.java:3:8: Unused import - java.util.ArrayList.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\StoredSearchListPage.java:5:8: Unused import - java.util.Map.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\StoredSearchListPage.java:55: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\StoredSearchListPage.java:55:115: ',' is not followed by whitespace.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SvnStatsPage.java:118: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SvnStatsPage.java:120:57: '600' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SvnStatsPage.java:120:62: '300' is a magic number.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\UserAllocatePage.java:89:43: 'space' hides a field.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\UserAllocatePage.java:104:9: Method length is 170 lines (max allowed is 150).
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\UserAllocatePage.java:143:33: 'space' hides a field.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\UserAllocatePage.java:184:27: 'space' hides a field.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\UserFormPage.java:109:9: Method length is 161 lines (max allowed is 150).
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\UserListPage.java:88: Line is longer than 132 characters.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\devmode\DebugHttpSessionStore.java:39:33: Name 'logger' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\devmode\DebugHttpSessionStore.java:41:33: Name 'banner' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\devmode\ReloadingClassLoader.java:37:33: Name 'logger' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\devmode\ReloadingClassLoader.java:115:30: Name 'pattern_' must match pattern '^[a-z][a-zA-Z0-9]*$'.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\devmode\ReloadingWicketFilter.java:35:33: Name 'logger' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\devmode\ReloadingWicketFilter.java:37:33: Name 'banner' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\devmode\ReloadingWicketFilter.java:52:35: 'filterConfig' hides a field.
+C:\workspace\jtrac\src\main\java\info\jtrac\wicket\yui\YuiCalendar.java:128: Line is longer than 132 characters.
+Audit done.

@@ -109,8 +109,7 @@ public interface Jtrac extends UserDetailsService {
     String getReleaseVersion();
     String getReleaseTimestamp();
     //========================================================
-    Map<String, String> loadAllStoredSearch();
+    List<StoredSearch> loadAllStoredSearch();
     void storeStoredSearch(StoredSearch storedSearch);
-    void removeStoredSearch(String name);
-
+    void removeStoredSearch(Long id);
 }

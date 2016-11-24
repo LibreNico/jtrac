@@ -234,7 +234,10 @@
     </class>
 
     <class name="StoredSearch" table="storedsearch">
-        <id name="name" column="name"/>
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+        <property name="name" column="name"/>
         <property name="query" column="query"/>
     </class>
 

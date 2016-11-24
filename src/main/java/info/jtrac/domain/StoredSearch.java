@@ -7,13 +7,15 @@ import java.io.Serializable;
  */
 public class StoredSearch implements Serializable {
 
+    private Long id;
     private String name;
     private String query;
 
     public StoredSearch() {
     }
 
-    public StoredSearch(String name, String query) {
+    public StoredSearch(Long id, String name, String query) {
+        this.id = id;
         this.query = query;
         this.name = name;
     }
@@ -32,5 +34,16 @@ public class StoredSearch implements Serializable {
 
     public void setQuery(String query) {
         this.query = query;
+    }
+
+    public Long getId() {
+        if(id == null){
+            return new Long(0);
+        }
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 }

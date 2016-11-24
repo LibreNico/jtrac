@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="4.3">
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\yui\package.html">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\package.html">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\package.html">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\acegi\package.html">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\lucene\package.html">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\exception\package.html">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\util\package.html">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\package.html">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\config\package.html">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\web\package.html">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\hibernate\package.html">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\mail\package.html">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\devmode\package.html">
+<error line="0" severity="error" message="Missing package documentation file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.PackageHtmlCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\Constants.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\Jtrac.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\JtracDao.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\JtracImpl.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\acegi\JtracCasProxyTicketValidator.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\acegi\JtracLdapAuthenticationProvider.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\config\DataSourceFactoryBean.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\config\JtracConfigurer.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\config\ProviderManagerFactoryBean.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\AbstractItem.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\Attachment.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\BatchInfo.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\ColumnHeading.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\Config.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\Counts.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\CountsHolder.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\ExcelFile.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\Field.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\FilterCriteria.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\History.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\Item.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\ItemItem.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\ItemRefId.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\ItemSearch.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\ItemTag.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\ItemUser.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\Metadata.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\Role.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\Space.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\SpaceSequence.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\State.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\StoredSearch.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\Tag.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\User.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\UserSpaceRole.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\WorkflowRenderer.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\exception\InvalidRefIdException.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\exception\JtracSecurityException.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\exception\SearchQueryParseException.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\hibernate\HibernateJtracDao.java">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\hibernate\SchemaHelper.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\lucene\IndexSearcher.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\lucene\Indexer.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\lucene\ItemIdHitExtractor.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\util\AttachmentUtils.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\util\DateUtils.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\util\ExcelUtils.java">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\util\ItemUtils.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\util\SvnUtils.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\util\UserUtils.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\util\ValidationUtils.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\util\WebUtils.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\util\XmlUtils.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\web\AbstractMultiActionController.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\web\DefaultMultiActionController.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\web\RestMultiActionController.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\AttachmentLinkPanel.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\BasePage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\BasePanel.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\CasLoginErrorPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\CasLoginPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\CasLogoutPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ConfigFormPage.java">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ConfigListPage.java">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ConfigPasswordFormPage.java">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ConfirmPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\CustomFieldsFormPanel.java">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\DashboardPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\DashboardRowExpandedPanel.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\DashboardRowPanel.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ErrorHighlighter.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ErrorPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ExcelImportColumnPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ExcelImportPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ExcelImportRowPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ExcelImportSpacePage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\HeaderPanel.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndexRebuildPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndicatingDropDownChoice.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemFormPage.java">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemListPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemListPanel.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemRelatePanel.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemRelateRemovePage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemSearchFormPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemSearchFormPanel.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemViewFormPanel.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemViewPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemViewPanel.java">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\JtracApplication.java">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\JtracCheckBoxMultipleChoice.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\JtracFeedbackMessageFilter.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\JtracReloadingWicketFilter.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\JtracSession.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\LoginPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\LogoutPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\OptionsPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ReadOnlyRefreshingView.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\RoleAllocatePanel.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\RoleDeAllocatePanel.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SpaceAllocatePage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SpaceFieldFormPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SpaceFieldListPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SpaceFieldOptionPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SpaceFormPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SpaceListPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SpacePermissionsPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SpaceRolePage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SpaceStatePage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\StoredSearchFormPage.java">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\StoredSearchListPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SvnStatsPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\UserAllocatePage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\UserFormPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\UserListPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\devmode\DebugHttpSessionStore.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\devmode\ReloadingClassLoader.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\devmode\ReloadingWicketFilter.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\yui\YuiCalendar.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\yui\YuiDialog.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\yui\YuiPanel.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\yui\YuiUtils.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\Constants.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\Jtrac.java">
+<error line="19" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - info.jtrac.domain.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\JtracDao.java">
+<error line="19" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - info.jtrac.domain.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\JtracImpl.java">
+<error line="19" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - info.jtrac.domain.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="57" column="33" severity="error" message="Name &apos;logger&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="71" column="41" severity="error" message="&apos;5&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="72" column="43" severity="error" message="&apos;30&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="135" column="79" severity="error" message="&apos;24&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="767" column="13" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="772" column="13" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\acegi\JtracCasProxyTicketValidator.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\acegi\JtracLdapAuthenticationProvider.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\config\DataSourceFactoryBean.java">
+<error line="188" column="49" severity="error" message="&apos;600000&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\config\JtracConfigurer.java">
+<error line="122" column="55" severity="error" message="&apos;9&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="215" severity="error" message="Comment matches to-do format &apos;TODO:&apos;." source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\config\ProviderManagerFactoryBean.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\AbstractItem.java">
+<error line="25" column="8" severity="error" message="Unused import - java.util.HashMap." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="156" column="36" severity="error" message="&apos;3&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="552" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="553" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="554" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="556" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="557" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="558" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="559" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\Attachment.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\BatchInfo.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\ColumnHeading.java">
+<error line="82" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="223" column="5" severity="error" message="Method length is 370 lines (max allowed is 150)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="229" column="22" severity="error" message="&apos;3&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="237" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="267" column="22" severity="error" message="&apos;4&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="311" column="22" severity="error" message="&apos;6&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="318" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="321" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="352" column="22" severity="error" message="&apos;7&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="353" column="22" severity="error" message="&apos;5&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="413" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="454" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="493" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="525" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="528" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="565" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="700" column="46" severity="error" message="&apos;)&apos; is preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\Config.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\Counts.java">
+<error line="44" column="28" severity="error" message="&apos;4&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\CountsHolder.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\ExcelFile.java">
+<error line="46" column="33" severity="error" message="Name &apos;logger&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="103" column="17" severity="error" message="switch without &quot;default&quot; clause." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
+<error line="106" column="26" severity="error" message="&apos;3&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="111" column="26" severity="error" message="&apos;4&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="116" column="26" severity="error" message="&apos;5&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="118" column="26" severity="error" message="&apos;6&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="126" column="17" severity="error" message="switch without &quot;default&quot; clause." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
+<error line="366" column="21" severity="error" message="switch without &quot;default&quot; clause." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
+<error line="475" column="34" severity="error" message="&apos;80&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="476" column="40" severity="error" message="&apos;80&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\Field.java">
+<error line="122" column="27" severity="error" message="&apos;4&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="129" column="22" severity="error" message="&apos;3&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="130" column="22" severity="error" message="&apos;4&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="131" column="22" severity="error" message="&apos;5&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="132" column="22" severity="error" message="&apos;6&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="133" column="22" severity="error" message="&apos;7&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="284" column="29" severity="error" message="&apos;6&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="288" column="29" severity="error" message="&apos;7&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="292" column="29" severity="error" message="&apos;4&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\FilterCriteria.java">
+<error line="54" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="98" column="13" severity="error" message="Conditional logic can be removed." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanReturnCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\History.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\Item.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\ItemItem.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\ItemRefId.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\ItemSearch.java">
+<error line="44" column="28" severity="error" message="&apos;25&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="74" column="68" severity="error" message="&apos;user&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="76" column="46" severity="error" message="&apos;25&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="135" column="24" severity="error" message="&apos;25&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\ItemTag.java">
+<error line="97" column="20" severity="error" message="&apos;7&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="98" column="23" severity="error" message="&apos;31&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="99" column="23" severity="error" message="&apos;31&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\ItemUser.java">
+<error line="100" column="20" severity="error" message="&apos;7&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="101" column="23" severity="error" message="&apos;31&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="102" column="23" severity="error" message="&apos;31&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\Metadata.java">
+<error line="479" column="44" severity="error" message="&apos;{&apos; is followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceAfterCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\Role.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\Space.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\SpaceSequence.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\State.java">
+<error line="275" column="8" severity="error" message="Unused @param tag for &apos;fields&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\StoredSearch.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;/*&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\Tag.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\User.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\UserSpaceRole.java">
+<error line="132" column="20" severity="error" message="&apos;7&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="133" column="23" severity="error" message="&apos;31&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="134" column="23" severity="error" message="&apos;31&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="135" column="23" severity="error" message="&apos;31&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\domain\WorkflowRenderer.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\exception\InvalidRefIdException.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\exception\JtracSecurityException.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\exception\SearchQueryParseException.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\hibernate\HibernateJtracDao.java">
+<error line="20" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - info.jtrac.domain.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="79" severity="error" message="Comment matches to-do format &apos;TODO:&apos;." source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+<error line="81" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="350" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="352" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="466" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="550" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\hibernate\SchemaHelper.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\lucene\IndexSearcher.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\lucene\Indexer.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\lucene\ItemIdHitExtractor.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\mail\MailSender.java">
+<error line="25" column="8" severity="error" message="Unused import - java.util.Collections." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="50" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="52" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="53" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="54" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="55" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="56" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="57" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="59" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="60" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="61" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="62" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="63" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="64" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="65" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="66" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="67" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="68" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="69" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="70" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="71" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="72" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="73" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="74" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="75" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="76" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="77" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="78" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="79" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="80" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="81" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="82" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="84" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="85" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="86" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="87" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="88" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="89" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="90" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="91" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="92" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="93" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="94" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="95" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="96" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="97" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="98" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="99" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="100" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="101" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="102" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="103" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="104" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="105" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="106" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="107" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="108" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="109" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="110" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="111" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="112" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="113" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="114" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="115" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="116" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="117" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="119" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="120" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="121" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="122" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="123" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="124" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="125" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="126" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="128" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="129" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="130" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="131" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="132" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="133" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="134" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="135" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="136" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="136" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="137" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="138" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="139" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="140" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="142" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="143" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="144" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="145" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="146" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="148" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="149" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="150" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="151" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="152" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="152" column="49" severity="error" message="&apos;80&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="153" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="153" column="54" severity="error" message="&apos;80&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="154" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="155" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="156" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="157" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="158" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="160" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="161" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="162" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="163" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="164" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="165" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="166" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="167" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="168" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="169" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="170" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="171" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="172" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="173" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="174" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="175" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="176" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="177" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="178" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="180" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="181" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="182" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="183" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="184" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="185" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="186" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="187" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="188" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="189" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="190" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="191" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="192" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="193" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="194" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="195" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="196" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="197" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="198" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="199" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="200" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="201" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="202" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="203" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="205" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="206" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="207" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="208" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="209" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="210" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="211" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="212" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="213" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="214" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="215" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="216" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="217" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="218" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="219" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="219" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="220" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="221" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="222" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="223" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="224" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="226" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="227" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="228" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="229" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="230" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="231" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="232" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="233" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="234" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="235" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="236" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="237" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="238" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="239" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="240" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="241" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="242" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="243" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="244" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="245" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="246" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="247" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="248" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="249" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="250" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="251" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="252" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="253" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="254" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="255" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="256" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="257" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="258" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="259" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="260" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="261" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="262" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="263" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="264" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="265" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="266" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="267" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="268" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="269" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="271" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="272" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="273" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="274" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="275" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="276" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="277" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="278" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="279" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="280" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="281" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="282" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="283" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="284" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="285" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="286" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="287" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="288" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="289" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="290" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="291" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="293" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="294" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="295" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="296" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="297" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="298" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="299" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="300" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="301" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="302" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="303" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="304" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="305" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="306" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="307" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="308" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="309" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="310" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="311" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="312" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="312" column="17" severity="error" message="&apos;25&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="313" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="314" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="315" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="316" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="317" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="318" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="319" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="320" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="321" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="322" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="323" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="324" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="326" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="327" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="328" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="329" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="330" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="331" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="332" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="333" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="334" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="335" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="337" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="338" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="339" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="340" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="341" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="342" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="344" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="345" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="346" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="348" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="349" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="350" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\util\AttachmentUtils.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\util\DateUtils.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\util\ExcelUtils.java">
+<error line="51" column="50" severity="error" message="&apos;12&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="130" column="30" severity="error" message="&apos;4&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="133" column="30" severity="error" message="&apos;6&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\util\ItemUtils.java">
+<error line="53" column="33" severity="error" message="Name &apos;logger&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="188" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="216" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="229" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="234" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\util\SvnUtils.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\util\UserUtils.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\util\ValidationUtils.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\util\WebUtils.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\util\XmlUtils.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\web\AbstractMultiActionController.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\web\DefaultMultiActionController.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\web\RestMultiActionController.java">
+<error line="86" column="32" severity="error" message="&apos;401&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="165" column="43" severity="error" message="Must have at least one statement." source="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\AttachmentLinkPanel.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\BasePage.java">
+<error line="41" column="35" severity="error" message="Name &apos;logger&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\BasePanel.java">
+<error line="34" column="35" severity="error" message="Name &apos;logger&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\CasLoginErrorPage.java">
+<error line="19" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - info.jtrac.wicket.yui.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\CasLoginPage.java">
+<error line="19" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - info.jtrac.wicket.yui.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\CasLogoutPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ConfigFormPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ConfigListPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ConfigPasswordFormPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ConfirmPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\CustomFieldsFormPanel.java">
+<error line="170" column="98" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\DashboardPage.java">
+<error line="19" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - info.jtrac.domain.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="23" column="8" severity="error" message="Unused import - java.util.Map." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\DashboardRowExpandedPanel.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\DashboardRowPanel.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ErrorHighlighter.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ErrorPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ExcelImportColumnPage.java">
+<error line="58" column="5" severity="error" message="Method length is 162 lines (max allowed is 150)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="221" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ExcelImportPage.java">
+<error line="67" column="5" severity="error" message="Method length is 176 lines (max allowed is 150)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="101" column="17" severity="error" message="switch without &quot;default&quot; clause." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
+<error line="116" column="26" severity="error" message="&apos;3&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="123" column="26" severity="error" message="&apos;4&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="130" column="26" severity="error" message="&apos;5&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="137" column="26" severity="error" message="&apos;6&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="149" column="26" severity="error" message="&apos;7&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="157" column="26" severity="error" message="&apos;8&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="211" column="17" severity="error" message="&apos;3&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="212" column="17" severity="error" message="&apos;4&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="213" column="17" severity="error" message="&apos;5&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="214" column="17" severity="error" message="&apos;6&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="215" column="17" severity="error" message="&apos;7&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="216" column="17" severity="error" message="&apos;8&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="244" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="262" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="284" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ExcelImportRowPage.java">
+<error line="64" column="39" severity="error" message="Name &apos;CLASS_SELECTED&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalFinalVariableNameCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ExcelImportSpacePage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\HeaderPanel.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndexRebuildPage.java">
+<error line="82" column="85" severity="error" message="&apos;5&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="95" column="60" severity="error" message="&apos;100&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndicatingDropDownChoice.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\IndividualHeadPanel.java">
+<error line="33" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="34" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="35" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="37" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="38" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="39" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="40" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="45" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="45" column="30" severity="error" message="&apos;(&apos; is followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="46" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="47" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="48" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="49" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="50" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="51" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="52" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="52" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="53" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="54" severity="error" message="&apos;else&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="54" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="55" column="3" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="56" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="57" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="58" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="59" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="60" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="60" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="61" column="4" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="62" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="62" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="63" column="4" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="64" severity="error" message="&apos;else&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="64" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="65" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemFormPage.java">
+<error line="88" column="9" severity="error" message="Method length is 187 lines (max allowed is 150)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="133" column="81" severity="error" message="&apos;+&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="149" column="110" severity="error" message="&apos;{&apos; is followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceAfterCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemListPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemListPanel.java">
+<error line="69" column="5" severity="error" message="Method length is 280 lines (max allowed is 150)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="185" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="275" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="278" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="290" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="331" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="335" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemRelatePanel.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemRelateRemovePage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemSearchFormPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemSearchFormPanel.java">
+<error line="84" column="60" severity="error" message="&apos;5&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="84" column="63" severity="error" message="&apos;10&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="84" column="67" severity="error" message="&apos;15&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="84" column="71" severity="error" message="&apos;25&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="84" column="75" severity="error" message="&apos;50&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="84" column="79" severity="error" message="&apos;100&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="105" column="46" severity="error" message="Must have at least one statement." source="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheck"/>
+<error line="150" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemViewFormPanel.java">
+<error line="48" column="8" severity="error" message="Unused import - org.apache.wicket.model.Model." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="84" column="1" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemViewPage.java">
+<error line="22" column="8" severity="error" message="Unused import - java.util.Set." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="26" column="8" severity="error" message="Unused import - info.jtrac.domain.ItemItem." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="33" column="8" severity="error" message="Unused import - org.apache.wicket.markup.html.list.ListView." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="95" column="13" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="96" column="14" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="106" column="85" severity="error" message="&apos;&amp;&amp;&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="107" column="9" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="107" column="50" severity="error" message="&apos;&amp;&amp;&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="108" column="9" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="108" column="35" severity="error" message="&apos;||&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="109" column="9" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="109" column="41" severity="error" message="&apos;||&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="110" column="9" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ItemViewPanel.java">
+<error line="27" column="8" severity="error" message="Unused import - info.jtrac.util.ItemUtils." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="79" column="5" severity="error" message="Method length is 178 lines (max allowed is 150)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="245" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\JtracApplication.java">
+<error line="71" column="19" severity="error" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="71" column="33" severity="error" message="Name &apos;logger&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="122" column="5" severity="error" message="Method length is 183 lines (max allowed is 150)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="144" column="79" severity="error" message="&apos;+&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="148" column="77" severity="error" message="&apos;+&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="158" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="176" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="192" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="237" column="60" severity="error" message="&apos;+&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="254" column="79" severity="error" message="&apos;+&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\JtracCheckBoxMultipleChoice.java">
+<error line="63" column="47" severity="error" message="&apos;6&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\JtracFeedbackMessageFilter.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\JtracReloadingWicketFilter.java">
+<error line="33" column="33" severity="error" message="Name &apos;banner&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\JtracSession.java">
+<error line="44" column="33" severity="error" message="Name &apos;logger&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="70" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="87" column="109" severity="error" message="&apos;60&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\LoginPage.java">
+<error line="44" column="33" severity="error" message="Name &apos;logger&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="181" column="59" severity="error" message="&apos;+&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="182" column="70" severity="error" message="&apos;+&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="183" column="76" severity="error" message="&apos;+&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="184" column="42" severity="error" message="&apos;+&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="197" column="78" severity="error" message="&apos;+&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="211" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="212" column="38" severity="error" message="&apos;30&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="212" column="43" severity="error" message="&apos;24&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="212" column="48" severity="error" message="&apos;60&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="212" column="53" severity="error" message="&apos;60&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\LogoutPage.java">
+<error line="31" column="33" severity="error" message="Name &apos;logger&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\OptionsPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\ReadOnlyRefreshingView.java">
+<error line="30" severity="error" message="Type Javadoc comment is missing an @param &lt;T&gt; tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="32" column="45" severity="error" message="Name &apos;CLASS_ALT&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="33" column="45" severity="error" message="Name &apos;CLASS_SELECTED&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="34" column="45" severity="error" message="Name &apos;CLASS_ERROR_BACK&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\RoleAllocatePanel.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\RoleDeAllocatePanel.java">
+<error line="46" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SpaceAllocatePage.java">
+<error line="126" column="32" severity="error" message="&apos;user&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SpaceFieldFormPage.java">
+<error line="90" column="9" severity="error" message="Method length is 186 lines (max allowed is 150)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="162" column="44" severity="error" message="&apos;4&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SpaceFieldListPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SpaceFieldOptionPage.java">
+<error line="84" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SpaceFormPage.java">
+<error line="143" column="37" severity="error" message="&apos;3&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="155" column="37" severity="error" message="&apos;10&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SpaceListPage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SpacePermissionsPage.java">
+<error line="56" column="9" severity="error" message="Method length is 184 lines (max allowed is 150)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="106" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="120" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SpaceRolePage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SpaceStatePage.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\StoredSearchFormPage.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;/*&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"/>
+<error line="120" column="32" severity="error" message="&apos;idSearchLink&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\StoredSearchListPage.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;/*&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"/>
+<error line="3" column="8" severity="error" message="Unused import - java.util.ArrayList." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="5" column="8" severity="error" message="Unused import - java.util.Map." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="55" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="55" column="115" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\SvnStatsPage.java">
+<error line="118" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="120" column="57" severity="error" message="&apos;600&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="120" column="62" severity="error" message="&apos;300&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\UserAllocatePage.java">
+<error line="89" column="43" severity="error" message="&apos;space&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="104" column="9" severity="error" message="Method length is 170 lines (max allowed is 150)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="143" column="33" severity="error" message="&apos;space&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="184" column="27" severity="error" message="&apos;space&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\UserFormPage.java">
+<error line="109" column="9" severity="error" message="Method length is 161 lines (max allowed is 150)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\UserListPage.java">
+<error line="88" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\devmode\DebugHttpSessionStore.java">
+<error line="39" column="33" severity="error" message="Name &apos;logger&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="41" column="33" severity="error" message="Name &apos;banner&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\devmode\ReloadingClassLoader.java">
+<error line="37" column="33" severity="error" message="Name &apos;logger&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="115" column="30" severity="error" message="Name &apos;pattern_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\devmode\ReloadingWicketFilter.java">
+<error line="35" column="33" severity="error" message="Name &apos;logger&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="37" column="33" severity="error" message="Name &apos;banner&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="52" column="35" severity="error" message="&apos;filterConfig&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\yui\YuiCalendar.java">
+<error line="128" severity="error" message="Line is longer than 132 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\yui\YuiDialog.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\yui\YuiPanel.java">
+</file>
+<file name="C:\workspace\jtrac\src\main\java\info\jtrac\wicket\yui\YuiUtils.java">
+</file>
+</checkstyle>

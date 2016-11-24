@@ -58,7 +58,7 @@ public class IndividualHeadPanel extends BasePanel {
 		add(img);
 		String message = configMap.get("jtrac.header.text");
 		if ((message == null) ||("".equals(message)))
-   		    add(new Label("message", "eLIMS - Issue Tracking System"));
+   		    add(new Label("message", " Issue Tracking System"));
 		else if ((message != null) && ("no".equals(message)))
    		    add(new Label("message", ""));
 		else
