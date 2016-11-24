@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title>JTrac</title>
+        <link rel="stylesheet" type="text/css" href="resources/jtrac.css"/>
+		<script src="//cdn.ckeditor.com/4.5.3/standard/ckeditor.js"></script>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+        <link rel="icon" type="image/x-icon" href="/jtrac/favicon.ico"/>
+        <script>
+            function unCheckSendNotifications() {
+                var x = document.getElementsByName("sendNotifications");
+                if(x){
+                    var i;
+                    for (i = 0; i < x.length; i++) {
+                        if (x[i].type == "checkbox") {
+                            x[i].checked = false;
+                        }
+                    }
+                 }
+            }
+        </script>
+
+    </head>    
+    <body onload="unCheckSendNotifications()">
+        <span wicket:id="individuel"></span><br/>
+        <span wicket:id="header"></span><br/>
+        <div style="clear:both"><br/></div>
+        <wicket:child/>
+        <div><br/></div>
+        <table width="100%" class="jtrac">
+            <tr class="footer">
+                <td align="right">
+                    <i>powered by <a href="http://jtrac.info" target="_blank">JTrac</a> <span wicket:id="version"></span></i>
+                </td>
+            </tr>
+        </table>        
+    </body>
+</html>

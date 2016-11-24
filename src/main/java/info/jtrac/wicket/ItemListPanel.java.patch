@@ -1,0 +1,50 @@
+Index: ItemListPanel.java
+===================================================================
+--- ItemListPanel.java	(revision 1351)
++++ ItemListPanel.java	(working copy)
+@@ -18,20 +18,20 @@
+ 
+ import info.jtrac.domain.AbstractItem;
+ import info.jtrac.domain.ColumnHeading;
+-import info.jtrac.domain.ColumnHeading.Name;
+ import info.jtrac.domain.History;
++import info.jtrac.domain.Item;
+ import info.jtrac.domain.ItemSearch;
++import info.jtrac.domain.ColumnHeading.Name;
+ import info.jtrac.util.DateUtils;
+ import info.jtrac.util.ExcelUtils;
+-
+ import info.jtrac.util.ItemUtils;
+-import static info.jtrac.domain.ColumnHeading.Name.*;
+ 
+ import java.io.IOException;
+ import java.io.OutputStreamWriter;
+ import java.util.ArrayList;
+ import java.util.List;
+ import java.util.Map;
++
+ import org.apache.wicket.IRequestTarget;
+ import org.apache.wicket.PageParameters;
+ import org.apache.wicket.RequestCycle;
+@@ -52,6 +52,7 @@
+ /**
+  * item list panel
+  */
++@SuppressWarnings("serial")
+ public class ItemListPanel extends BasePanel {
+     
+     private ItemSearch itemSearch;
+@@ -318,7 +319,13 @@
+                                     value = new PropertyModel(item, "assignedTo.name");
+                                     break;
+                                 case TIME_STAMP:
++                                	if (item instanceof History) {
+                                     value = new Model(DateUtils.formatTimeStamp(item.getTimeStamp()));
++                                	} else {
++                                		if (item instanceof Item) {
++                                           value = new Model(DateUtils.formatTimeStamp( ((Item)item).getLatestHistory().getTimeStamp()));
++                                		}
++                                	}
+                                     break;
+                                 case SPACE:
+                                     if(showHistory) {

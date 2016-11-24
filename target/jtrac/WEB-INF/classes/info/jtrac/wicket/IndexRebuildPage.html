@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <wicket:extend>
+            <div wicket:id="heading" class="heading"></div>             
+            <form wicket:id="form">
+                <p>
+                    <img src="resources/warning.gif" class="nav-link"/>
+                    <wicket:message key="index_rebuild.warning"/>  
+                    <wicket:enclosure child="start">
+                        <input type="submit" wicket:id="start" wicket:message="value:submit"/>
+                        <p/>
+                        <a href="#" wicket:id="cancel"><img src="resources/cancel.gif" class="nav-link"/><wicket:message key="cancel"/></a>                                              
+                    </wicket:enclosure>
+                </p>                                                        
+                <span wicket:id="progress" class="selected"></span>
+            </form>            
+        </wicket:extend>
+    </body>
+</html>

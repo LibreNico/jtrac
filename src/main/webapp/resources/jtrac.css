@@ -1,0 +1,167 @@
+body
+{
+/* Font */
+font-family: sans-serif, Arial, Verdana, "Trebuchet MS";
+font-size: 13px;
+
+/* Text color */
+color: #333;
+
+/* Remove the background color to make it transparent */
+background-color: #fff;
+
+margin: 20px;
+}
+table.jtrac th, table.jtrac td.label { background: #CCCCCC; padding-left: 0.2em; padding-right: 0.2em; }
+tr.center td { text-align: center; }
+.label { font-weight: bold; text-align: right; }
+a { color: #0000D9; }
+a:hover { color: black; }
+img { border: none; vertical-align: middle; }
+.multiselect { overflow: auto; background: #FFF; text-align: left; border: 1px solid #CCCCCC; }
+.scrollable { height: 10em; }
+.error-input { border: 1px solid #CC2200; }
+div.error-input { float: left; }
+div.error-input select { border: none; }
+.error { color: #CC2200; font-weight: bold; margin-bottom: 1em; }
+.error-back { background: #FFB6C1; }
+.info { color: #0000D9; font-weight: bold; }
+.heading { color: #0000D9; font-weight: bold; margin-bottom: 1em; }
+.selected, table.jtrac .selected { background: #c3d9ff; }
+.bdr-bottom, tr.bdr-bottom td { border-bottom: 1px solid #CCCCCC; }
+.nav-header { background: #CCCCCC; padding: 0.1em; }
+.nav-header table, .jtrac-list, .jtrac-view { font-size: 95%; }
+.jtrac-view { border: 1px solid #CCCCCC; }
+.nav-header img, img.nav-link { margin-top: 1px; margin-right: 0.3em; }
+.nav-header img, a img.nav-link { vertical-align: top; display: block; float: left; }
+.nav-table td.icon { padding: 0; text-align: center; width: 4em; }
+.nav-table td a { width: 100%; display: block; }
+.bdr-collapse { border-collapse: collapse; }
+.bdr-collapse td { padding: 0; }
+.page-links { font-weight: bold; }
+.nav-header td { padding-left: 0.7em; }
+.space-below { padding-bottom: 0.5em; }
+tr.sortable th { background-position: right; background-repeat: no-repeat; }
+tr.sortable th.order-none { background-image: url("arrow_off.gif"); }
+tr.sortable th.order-up { background-color: #c3d9ff; background-image: url("arrow_up.gif"); }
+tr.sortable th.order-down { background-color: #c3d9ff; background-image: url("arrow_down.gif"); }
+tr.sortable a { color: black; }
+tr.sortable a:hover { color: #0000D9; }
+.customSizeTextArea { width: 425px; margin: 0px; height: 75px; }
+/* { list-style-image: url("error.gif"); } */
+li.feedbackPanelINFO { list-style-image: url("success.gif"); padding-left: 0.4em; }
+li.feedbackPanelERROR { list-style-image: url("error.gif"); padding-left: 0.4em; }
+.menu-option div { font-weight: bold; background-color: #e1ecfe; padding-left: 1em; padding-right: 1em; margin-bottom: 1.5em; }
+
+
+.footer {
+    font-size: 87.5%;
+    border-top: 1px solid #eee;
+    margin-top: 3.4286em;
+    padding: 1.1429em;
+    background: rgb(250, 250, 250);
+}
+
+.header {
+    margin: 0 auto;
+    padding: 1em;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    background: #fff;
+font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+        color: #005c7f;
+        font-style: italic;
+}
+
+.nav-header td, .nav-table td {
+    font-weight: bold;
+    text-align: right;
+    padding: 0 10px 0 10px;
+    /* background-color: #e1ecfe; */
+}
+
+.alt {
+    background: #e6e6e6;
+}
+
+.cke_editable
+{
+font-size: 13px;
+line-height: 1.6em;
+}
+
+blockquote
+{
+font-style: italic;
+font-family: Georgia, Times, "Times New Roman", serif;
+padding: 2px 0;
+border-style: solid;
+border-color: #ccc;
+border-width: 0;
+padding-left: 20px;
+    padding-right: 8px;
+    border-left-width: 5px;
+}
+
+a
+{
+color: #0782C1;
+}
+
+ol,ul,dl
+{
+/* IE7: reset rtl list margin. (#7334) */
+*margin-right: 0px;
+/* preserved spaces for list items with text direction other than the list. (#6249,#8049)*/
+padding: 0 40px;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+font-weight: normal;
+line-height: 1.2em;
+}
+
+hr
+{
+border: 0px;
+border-top: 1px solid #ccc;
+}
+
+img.right {
+    border: 1px solid #ccc;
+    float: right;
+    margin-left: 15px;
+    padding: 5px;
+}
+
+img.left {
+    border: 1px solid #ccc;
+    float: left;
+    margin-right: 15px;
+    padding: 5px;
+}
+
+img:hover {
+opacity: .9;
+filter: alpha(opacity = 90);
+}
+
+pre
+{
+white-space: pre-wrap; /* CSS 2.1 */
+word-wrap: break-word; /* IE7 */
+}
+
+.marker {
+    background-color: Yellow;
+}
+
+span[lang]
+{
+   font-style: italic;
+}

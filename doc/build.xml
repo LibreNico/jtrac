@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="jtrac-doc" basedir=".." default="doc">
+
+    <property name="doc.src.dir" value="doc"/>    
+    <property name="dist.doc.dir" value="target/site/doc"/>    
+    
+    <target name="doc" depends="clean, doc-html, doc-html-single, doc-pdf"/>
+    
+    <target name="clean">
+        <delete includeemptydirs="true" failonerror="false">
+            <fileset dir="${dist.doc.dir}"/>
+        </delete>      
+    </target>        
+    
+    <target name="copy-images">
+        <mkdir dir="${dist.doc.dir}/images"/>
+        <copy todir="${dist.doc.dir}/images"> 
+            <fileset dir="${doc.src.dir}/src/images"/>
+        </copy>
+        <mkdir dir="${dist.doc.dir}/styles"/>
+        <copy todir="${dist.doc.dir}/styles"> 
+            <fileset dir="${doc.src.dir}/styles" includes="*.css"/>
+        </copy>        
+    </target>
+    
+    <target name="doc-pdf" depends="copy-images">
+        <mkdir dir="${dist.doc.dir}/pdf"/>    
+        <java classname="com.icl.saxon.StyleSheet" fork="true">
+            <classpath>
+                <fileset dir="${doc.src.dir}/lib">
+                    <include name="**/*.jar"/>
+                </fileset>
+            </classpath>
+            <jvmarg value="-Xmx256M"/>            
+            <arg value="-o"/>
+            <arg value="${dist.doc.dir}/pdf/docbook_fop.tmp"/>
+            <arg value="${doc.src.dir}/src/index.xml"/>
+            <arg value="${doc.src.dir}/styles/fopdf.xsl"/>
+        </java>
+        <java classname="org.apache.fop.apps.Fop" fork="true" maxmemory="256m">
+            <classpath>
+                <fileset dir="${doc.src.dir}/lib">
+                    <include name="**/*.jar"/>
+                </fileset>
+            </classpath>
+            <arg value="${dist.doc.dir}/pdf/docbook_fop.tmp"/>
+            <arg value="${dist.doc.dir}/pdf/jtrac-doc.pdf"/>
+        </java>
+        <delete file="${dist.doc.dir}/pdf/docbook_fop.tmp"/>
+    </target>
+    
+    <target name="doc-html" depends="copy-images">
+        <mkdir dir="${dist.doc.dir}/html"/>
+        <java classname="com.icl.saxon.StyleSheet" fork="true" dir="${dist.doc.dir}/html">
+            <classpath>
+                <fileset dir="${doc.src.dir}/lib">
+                    <include name="**/*.jar"/>
+                </fileset>
+            </classpath>
+            <jvmarg value="-Xmx256M"/>            
+            <arg value="${basedir}/${doc.src.dir}/src/index.xml"/>
+            <arg value="${basedir}/${doc.src.dir}/styles/html_chunk.xsl"/>
+        </java>
+    </target>
+
+    <target name="doc-html-single" depends="copy-images">
+        <mkdir dir="${dist.doc.dir}/html-single"/>
+        <java classname="com.icl.saxon.StyleSheet" fork="true">
+            <classpath>
+                <fileset dir="${doc.src.dir}/lib">
+                    <include name="**/*.jar"/>
+                </fileset>
+            </classpath>
+            <jvmarg value="-Xmx256M"/>            
+            <arg value="-o"/>
+            <arg value="${dist.doc.dir}/html-single/index.html"/>
+            <arg value="${doc.src.dir}/src/index.xml"/>
+            <arg value="${doc.src.dir}/styles/html.xsl"/>
+        </java>
+    </target>   
+    
+</project>    

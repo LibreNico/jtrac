@@ -1,0 +1,84 @@
+2016-11-22 14:35:10,093 [main] INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2016-11-22 14:35:10,178 [main] INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing org.springframework.web.context.support.XmlWebApplicationContext@c6f5b: display name [Root WebApplicationContext]; startup date [Tue Nov 22 14:35:10 CET 2016]; root of context hierarchy
+2016-11-22 14:35:10,501 [main] INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@c6f5b]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1921e20
+2016-11-22 14:35:10,855 [main] INFO [info.jtrac.config.JtracConfigurer] - found 'jtrac-init.properties' on classpath, processing...
+2016-11-22 14:35:10,873 [main] INFO [info.jtrac.config.JtracConfigurer] - locales available configured are 'en,ar,cs,de,el,en,es,es_AR,es_MX,fr,hu,it,ja,ko,nl,no,pl,pt_BR,ru,sl,sv,tr,zh_CN,zh_TW'
+2016-11-22 14:35:10,873 [main] INFO [info.jtrac.config.JtracConfigurer] - valid 'jtrac.home' property not available in 'jtrac-init.properties', trying system properties.
+2016-11-22 14:35:10,873 [main] INFO [info.jtrac.config.JtracConfigurer] - 'jtrac.home' property initialized from system properties as 'C:\workspace\jtrac/home'
+2016-11-22 14:35:10,873 [main] INFO [info.jtrac.config.JtracConfigurer] - directory already exists: 'C:\workspace\jtrac\home'
+2016-11-22 14:35:10,874 [main] INFO [info.jtrac.config.JtracConfigurer] - directory already exists: 'C:\workspace\jtrac\home\attachments'
+2016-11-22 14:35:10,874 [main] INFO [info.jtrac.config.JtracConfigurer] - directory already exists: 'C:\workspace\jtrac\home\indexes'
+2016-11-22 14:35:10,874 [main] INFO [info.jtrac.config.JtracConfigurer] - 'jtrac.properties' file exists: 'C:\workspace\jtrac\home\jtrac.properties'
+2016-11-22 14:35:10,874 [main] INFO [info.jtrac.config.JtracConfigurer] - found 'jtrac-version.properties' on classpath, processing...
+2016-11-22 14:35:10,876 [main] INFO [info.jtrac.config.JtracConfigurer] - jtrac.version = '2.1.1'
+2016-11-22 14:35:10,876 [main] INFO [info.jtrac.config.JtracConfigurer] - jtrac.timestamp = '1441009928'
+2016-11-22 14:35:10,877 [main] INFO [info.jtrac.config.JtracConfigurer] - Loading properties file from file [C:\workspace\jtrac\home\jtrac.properties]
+2016-11-22 14:35:11,044 [main] INFO [info.jtrac.config.DataSourceFactoryBean] - embedded HSQLDB mode detected, switching on spring single connection data source
+2016-11-22 14:35:14,824 [main] DEBUG [org.hibernate.SQL] - select item0_.id as id0_, item0_.version as version0_, item0_.space_id as space3_0_, item0_.sequence_num as sequence4_0_, item0_.type as type0_, item0_.parent_id as parent6_0_, item0_.time_stamp as time7_0_, item0_.planned_effort as planned8_0_, item0_.logged_by as logged9_0_, item0_.assigned_to as assigned10_0_, item0_.summary as summary0_, item0_.detail as detail0_, item0_.status as status0_, item0_.severity as severity0_, item0_.priority as priority0_, item0_.cus_dbl_01 as cus16_0_, item0_.cus_dbl_02 as cus17_0_, item0_.cus_dbl_03 as cus18_0_, item0_.cus_int_01 as cus19_0_, item0_.cus_int_02 as cus20_0_, item0_.cus_int_03 as cus21_0_, item0_.cus_int_04 as cus22_0_, item0_.cus_int_05 as cus23_0_, item0_.cus_int_06 as cus24_0_, item0_.cus_int_07 as cus25_0_, item0_.cus_int_08 as cus26_0_, item0_.cus_int_09 as cus27_0_, item0_.cus_int_10 as cus28_0_, item0_.cus_str_01 as cus29_0_, item0_.cus_str_02 as cus30_0_, item0_.cus_str_03 as cus31_0_, item0_.cus_str_04 as cus32_0_, item0_.cus_str_05 as cus33_0_, item0_.cus_tim_01 as cus34_0_, item0_.cus_tim_02 as cus35_0_, item0_.cus_tim_03 as cus36_0_, item0_.cus_text_01 as cus37_0_, item0_.cus_text_02 as cus38_0_, item0_.cus_text_03 as cus39_0_ from items item0_ where item0_.id=1
+2016-11-22 14:35:14,842 [main] INFO [info.jtrac.hibernate.HibernateJtracDao] - database schema exists, normal startup
+2016-11-22 14:35:14,862 [main] DEBUG [org.hibernate.SQL] - select this_.id as id9_0_, this_.next_seq_num as next2_9_0_ from space_sequence this_
+2016-11-22 14:35:14,923 [main] DEBUG [org.hibernate.SQL] - select item0_.space_id as col_0_0_, max(item0_.sequence_num) as col_1_0_ from items item0_ group by item0_.space_id
+2016-11-22 14:35:14,927 [main] INFO [info.jtrac.hibernate.HibernateJtracDao] - checking space sequence id: 1, max: 83, next: 84
+2016-11-22 14:35:15,083 [main] INFO [info.jtrac.JtracImpl] - available locales configured {en=en - English, ar=ar - Arabic, cs=cs - Czech, de=de - German, el=el - Greek, es=es - Spanish, es_AR=es_AR - Spanish (Argentina), es_MX=es_MX - Spanish (Mexico), fr=fr - French, hu=hu - Hungarian, it=it - Italian, ja=ja - Japanese, ko=ko - Korean, nl=nl - Dutch, no=no - Norwegian, pl=pl - Polish, pt_BR=pt_BR - Portuguese (Brazil), ru=ru - Russian, sl=sl - Slovenian, sv=sv - Swedish, tr=tr - Turkish, zh_CN=zh_CN - Chinese (China), zh_TW=zh_TW - Chinese (Taiwan)}
+2016-11-22 14:35:15,084 [main] DEBUG [org.hibernate.SQL] - select this_.param as param12_0_, this_.value as value12_0_ from config this_
+2016-11-22 14:35:15,085 [main] INFO [info.jtrac.JtracImpl] - default locale set to 'en'
+2016-11-22 14:35:15,106 [main] INFO [info.jtrac.mail.MailSender] - initializing email adapter: host = 'smtp.eu.jnj.com', port = 'null', from = 'noreply@its.jnj.com', prefix = 'null'
+2016-11-22 14:35:15,248 [main] INFO [info.jtrac.mail.MailSender] - email sender initialized from config: host = 'smtp.eu.jnj.com', port = '25'
+2016-11-22 14:35:15,248 [main] INFO [info.jtrac.mail.MailSender] - email hyperlink base url set to 'http://wjanbepbb071f:2340/jtrac/'
+2016-11-22 14:35:15,248 [main] WARN [info.jtrac.JtracImpl] - invalid attachment max size 'null', using 5
+2016-11-22 14:35:15,248 [main] INFO [info.jtrac.JtracImpl] - attachment max size set to 5 MB
+2016-11-22 14:35:15,249 [main] WARN [info.jtrac.JtracImpl] - invalid session timeout 'null', using 30
+2016-11-22 14:35:15,249 [main] INFO [info.jtrac.JtracImpl] - session timeout set to 30 minutes
+2016-11-22 14:35:15,411 [main] INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 5317 ms
+2016-11-22 14:35:15,946 [main] WARN [info.jtrac.wicket.JtracApplication] - wicket development mode, using custom debug http session store
+2016-11-22 14:35:15,976 [main] WARN [info.jtrac.wicket.devmode.DebugHttpSessionStore] - 
+***********************************************
+*** WARNING: Debug HttpSession store in use ***
+***    This is wrong if production mode.    ***
+***********************************************
+2016-11-22 14:35:16,024 [main] DEBUG [info.jtrac.wicket.JtracApplication] - No bean named 'casProxyTicketValidator' is defined
+2016-11-22 14:35:16,024 [main] INFO [info.jtrac.wicket.JtracApplication] - casProxyTicketValidator not found in application context, CAS single-sign-on is not being used
+2016-11-22 14:35:16,416 [main] WARN [info.jtrac.wicket.devmode.ReloadingWicketFilter] - 
+***********************************************
+*** WARNING: Reloading Wicket Filter in use ***
+***    This is wrong if production mode.    ***
+***********************************************
+2016-11-22 14:35:16,581 [main] INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'jtrac-api': initialization started
+2016-11-22 14:35:16,583 [main] INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing org.springframework.web.context.support.XmlWebApplicationContext@4b990c: display name [WebApplicationContext for namespace 'jtrac-api-servlet']; startup date [Tue Nov 22 14:35:16 CET 2016]; parent: org.springframework.web.context.support.XmlWebApplicationContext@c6f5b
+2016-11-22 14:35:16,616 [main] INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@4b990c]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1aeca0b
+2016-11-22 14:35:16,711 [main] DEBUG [info.jtrac.web.RestMultiActionController] - Found action method [public void info.jtrac.web.RestMultiActionController.itemGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception]
+2016-11-22 14:35:16,711 [main] DEBUG [info.jtrac.web.RestMultiActionController] - Found action method [public void info.jtrac.web.RestMultiActionController.itemPut(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception]
+2016-11-22 14:35:16,711 [main] DEBUG [info.jtrac.web.RestMultiActionController] - Found action method [public void info.jtrac.web.RestMultiActionController.versionGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception]
+2016-11-22 14:35:16,711 [main] DEBUG [info.jtrac.web.RestMultiActionController] - Found action method [public void info.jtrac.web.RestMultiActionController.spaceUsersGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception]
+2016-11-22 14:35:16,711 [main] DEBUG [info.jtrac.web.RestMultiActionController] - Found action method [public void info.jtrac.web.RestMultiActionController.itemSearchGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception]
+2016-11-22 14:35:16,711 [main] DEBUG [info.jtrac.web.RestMultiActionController] - Found action method [public void info.jtrac.web.RestMultiActionController.itemAllGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception]
+2016-11-22 14:35:16,735 [main] DEBUG [info.jtrac.web.DefaultMultiActionController] - Found action method [public org.springframework.web.servlet.ModelAndView info.jtrac.web.DefaultMultiActionController.itemViewHandler(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]
+2016-11-22 14:35:16,813 [main] INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'jtrac-api': initialization completed in 232 ms
+2016-11-22 14:36:15,481 [Timer-0] DEBUG [info.jtrac.JtracImpl] - polling task called
+2016-11-22 14:36:15,487 [Timer-0] DEBUG [info.jtrac.JtracImpl] - hourly task called
+2016-11-22 14:41:15,425 [Timer-0] DEBUG [info.jtrac.JtracImpl] - polling task called
+2016-11-22 14:46:15,438 [Timer-0] DEBUG [info.jtrac.JtracImpl] - polling task called
+2016-11-22 14:51:15,438 [Timer-0] DEBUG [info.jtrac.JtracImpl] - polling task called
+2016-11-22 14:56:15,438 [Timer-0] DEBUG [info.jtrac.JtracImpl] - polling task called
+2016-11-22 15:01:15,438 [Timer-0] DEBUG [info.jtrac.JtracImpl] - polling task called
+2016-11-22 15:06:15,447 [Timer-0] DEBUG [info.jtrac.JtracImpl] - polling task called
+2016-11-22 15:11:15,460 [Timer-0] DEBUG [info.jtrac.JtracImpl] - polling task called
+2016-11-22 15:16:15,473 [Timer-0] DEBUG [info.jtrac.JtracImpl] - polling task called
+2016-11-22 15:21:15,486 [Timer-0] DEBUG [info.jtrac.JtracImpl] - polling task called
+2016-11-22 15:26:15,499 [Timer-0] DEBUG [info.jtrac.JtracImpl] - polling task called
+2016-11-22 15:31:15,512 [Timer-0] DEBUG [info.jtrac.JtracImpl] - polling task called
+2016-11-22 15:36:15,500 [Timer-0] DEBUG [info.jtrac.JtracImpl] - hourly task called
+2016-11-22 15:36:15,512 [Timer-0] DEBUG [info.jtrac.JtracImpl] - polling task called
+2016-11-22 15:41:15,525 [Timer-0] DEBUG [info.jtrac.JtracImpl] - polling task called
+2016-11-22 15:46:15,538 [Timer-0] DEBUG [info.jtrac.JtracImpl] - polling task called
+2016-11-22 15:51:15,553 [Timer-0] DEBUG [info.jtrac.JtracImpl] - polling task called
+2016-11-22 15:56:15,554 [Timer-0] DEBUG [info.jtrac.JtracImpl] - polling task called
+2016-11-22 16:01:15,554 [Timer-0] DEBUG [info.jtrac.JtracImpl] - polling task called
+2016-11-22 16:06:15,554 [Timer-0] DEBUG [info.jtrac.JtracImpl] - polling task called
+2016-11-22 16:11:15,554 [Timer-0] DEBUG [info.jtrac.JtracImpl] - polling task called
+2016-11-22 16:16:15,554 [Timer-0] DEBUG [info.jtrac.JtracImpl] - polling task called
+2016-11-22 16:21:15,567 [Timer-0] DEBUG [info.jtrac.JtracImpl] - polling task called
+2016-11-22 16:26:15,580 [Timer-0] DEBUG [info.jtrac.JtracImpl] - polling task called
+2016-11-22 16:31:15,593 [Timer-0] DEBUG [info.jtrac.JtracImpl] - polling task called
+2016-11-22 16:36:15,513 [Timer-0] DEBUG [info.jtrac.JtracImpl] - hourly task called
+2016-11-22 16:36:15,593 [Timer-0] DEBUG [info.jtrac.JtracImpl] - polling task called
