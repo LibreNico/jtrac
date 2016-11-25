@@ -1,0 +1,24 @@
+<html>
+    <body>
+        <wicket:extend>
+            <div class="heading">
+                <wicket:message key="storedsearch_list.configurationLinks"/>
+                [ <a href="#" wicket:id="create"><wicket:message key="storedsearch_list.createNewLink"/></a> ]
+            </div>
+            <table class="jtrac">
+                <tr>
+                    <th><wicket:message key="storedsearch_list.id"/></th>
+                    <th><wicket:message key="storedsearch_list.name"/></th>
+                    <th><wicket:message key="storedsearch_list.query"/></th>
+                    <th><wicket:message key="storedsearch_list.edit"/></th>
+                </tr>
+                <tr wicket:id="links">
+                    <td wicket:id="id"></td>
+                    <td wicket:id="name"></td>
+                    <td wicket:id="query"></td>
+                    <td wicket:id="link" align="center"><a href="#"><img src="resources/edit.gif"/></a></td>
+                </tr>
+            </table>
+        </wicket:extend>
+    </body>
+</html>
