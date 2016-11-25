@@ -8,4 +8,5 @@ home/*
 .svn/
 etc/images/
 **/jetty/logs/
-target/jetty/work/*
+target/jetty/work/
+target/jetty/home/db
