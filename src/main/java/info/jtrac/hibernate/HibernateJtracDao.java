@@ -529,18 +529,19 @@ public class HibernateJtracDao extends HibernateDaoSupport implements JtracDao {
         try {
             getHibernateTemplate().find("from Item item where item.id = 1");
             logger.info("database schema exists, normal startup");
+            System.out.println("database schema exists, normal startup");
+
+
+            List<User> userAdminInDB = findUsersByLoginName("admin");
+            if(userAdminInDB.size() < 1 ){
+                createStandardAdminUser();
+            }
         } catch (Exception e) {
             logger.warn("expected database schema does not exist, will create. Error is: " + e.getMessage());
+            System.out.println("expected database schema does not exist, will create. Error is: " + e.getMessage());
+            createStandardAdminUser();
             schemaHelper.createSchema();
-            User admin = new User();
-            admin.setLoginName("admin");
-            admin.setName("Admin");
-            admin.setEmail("admin");
-            admin.setPassword("21232f297a57a5a743894a0e4a801fc3");
-            admin.addSpaceWithRole(null, Role.ROLE_ADMIN);
-            logger.info("inserting default admin user into database");
-            storeUser(admin);
-            logger.info("schema creation complete");
+
         }
         List<SpaceSequence> ssList = getHibernateTemplate().loadAll(SpaceSequence.class);
         Map<Long, SpaceSequence> ssMap = new HashMap<Long, SpaceSequence>(ssList.size());
@@ -561,5 +562,19 @@ public class HibernateJtracDao extends HibernateDaoSupport implements JtracDao {
             }
         }
     }
-    
+
+    private void createStandardAdminUser() {
+        User admin = new User();
+        admin.setLoginName("admin");
+        admin.setName("Admin");
+        admin.setEmail("admin");
+        admin.setPassword("21232f297a57a5a743894a0e4a801fc3");
+        admin.addSpaceWithRole(null, Role.ROLE_ADMIN);
+        logger.info("inserting default admin user into database");
+        System.out.println("inserting default admin user into database");
+
+        storeUser(admin);
+        logger.info("schema creation complete");
+    }
+
 }

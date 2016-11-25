@@ -160,7 +160,9 @@ public class SchemaHelper {
         } // end for
         
         logger.info("begin database schema creation =========================");
+        System.out.println("begin database schema creation =========================");
         new SchemaUpdate(cfg).execute(true, true);
+        System.out.println("end database schema creation ===========================");
         logger.info("end database schema creation ===========================");
     }
 }
