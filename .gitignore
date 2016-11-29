@@ -6,3 +6,4 @@ etc/images/
 target/jetty/logs/
 target/jetty/work/
 target/jetty/home/db/
+target/jetty/home/indexes/
