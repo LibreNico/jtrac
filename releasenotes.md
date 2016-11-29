@@ -18,5 +18,9 @@
 * bigger input field url for search/link
 * update documetation
 
+##Realese 0.3.2
+
+* fix embeded jetty libs
+
 
 
