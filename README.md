@@ -16,30 +16,30 @@ Note : to change the port of the application you just need to edit -Djetty.port=
 
 ### Dashboard screen
 
-![jtrac_dashboard](https://github.com/LibreNico/jtrac/blob/develop/doc/jtrac_screenshot/jtrac_dashboard?raw=true)
+![jtrac_dashboard](https://raw.githubusercontent.com/LibreNico/jtrac/master/doc/jtrac_screenshot/jtrac_dashboard.PNG)
 
 ### Settings screen
 
-![jtrac_configuration_settings](https://github.com/LibreNico/jtrac/blob/develop/doc/jtrac_screenshot/jtrac_configuration_settings?raw=true)
+![jtrac_configuration_settings](https://raw.githubusercontent.com/LibreNico/jtrac/master/doc/jtrac_screenshot/jtrac_configuration_settings.PNG)
 
 ### Ticket screen
-![jtrac_detail_ticket](https://github.com/LibreNico/jtrac/blob/develop/doc/jtrac_screenshot/jtrac_detail_ticket?raw=true)
+![jtrac_detail_ticket](https://raw.githubusercontent.com/LibreNico/jtrac/master/doc/jtrac_screenshot/jtrac_detail_ticket.PNG)
 
 ### Edit the list of link screen
-![jtrac_listlink_manager](https://github.com/LibreNico/jtrac/blob/develop/doc/jtrac_screenshot/jtrac_listlink_manager?raw=true)
+![jtrac_listlink_manager](https://raw.githubusercontent.com/LibreNico/jtrac/master/doc/jtrac_screenshot/jtrac_listlink_manager.PNG)
 
 ### Add new custom field screen
-![jtrac_new_custom_field](https://github.com/LibreNico/jtrac/blob/develop/doc/jtrac_screenshot/jtrac_new_custom_field?raw=true)
+![jtrac_new_custom_field](https://raw.githubusercontent.com/LibreNico/jtrac/master/doc/jtrac_screenshot/jtrac_new_custom_field.PNG)
 
 ### All the type of options for a ticket screen
-![jtrac_options](https://github.com/LibreNico/jtrac/blob/develop/doc/jtrac_screenshot/jtrac_options?raw=true)
+![jtrac_options](https://raw.githubusercontent.com/LibreNico/jtrac/master/doc/jtrac_screenshot/jtrac_options.PNG)
 
 ### New ticket screen
-![jtrac_new_ticket](https://github.com/LibreNico/jtrac/blob/develop/doc/jtrac_screenshot/jtrac_new_ticket?raw=true)
+![jtrac_new_ticket](https://raw.githubusercontent.com/LibreNico/jtrac/master/doc/jtrac_screenshot/jtrac_new_ticket.PNG)
 
 ### New ticket with all options screen
-![jtrac_ticket_all_type_input](https://github.com/LibreNico/jtrac/blob/develop/doc/jtrac_screenshot/jtrac_ticket_all_type_input?raw=true)
+![jtrac_ticket_all_type_input](https://raw.githubusercontent.com/LibreNico/jtrac/master/doc/jtrac_screenshot/jtrac_ticket_all_type_input.PNG)
 
 ### Search result screen
-![jtrac_search](https://github.com/LibreNico/jtrac/blob/develop/doc/jtrac_screenshot/jtrac_search?raw=true)
+![jtrac_search](https://raw.githubusercontent.com/LibreNico/jtrac/master/doc/jtrac_screenshot/jtrac_search.PNG)
 
