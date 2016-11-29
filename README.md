@@ -4,7 +4,7 @@ For one of my IT project, we decided to use JTrac as a ticket issue system. I ma
 
 * new textarea input field
 * manage a list of links to external site or to save previous searchs :
-![jtrac_search_detail](https://raw.githubusercontent.com/LibreNico/jtrac/master/doc/jtrac_screenshot/jtrac_search_detail.png)
+![jtrac_search_detail](https://raw.githubusercontent.com/LibreNico/jtrac/master/doc/jtrac_screenshot/jtrac_search_detail.PNG)
 * new design of the website : a new logo, a web text editor with ckeditor.js and a new css
 * all the other default features of JTrac are still available : http://jtrac.info/doc/html/features.html
 
