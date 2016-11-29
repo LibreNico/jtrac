@@ -1,7 +1,4 @@
 *.class
-# Package Files #
-*.jar
-*.ear
 home/*
 .idea/
 .svn/
