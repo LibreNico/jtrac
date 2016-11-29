@@ -13,4 +13,10 @@
 
 * add a documentation (readme)
 
+##Realese 0.3.1
+
+* bigger input field url for search/link
+* update documetation
+
+
 
