@@ -12,13 +12,10 @@
 #Realese 0.3
 
 * add a documentation (readme)
-
-##Realese 0.3.1
-
 * bigger input field url for search/link
 * update documetation
 
-##Realese 0.3.2
+#Realese 0.4
 
 * fix embeded jetty libs
 
