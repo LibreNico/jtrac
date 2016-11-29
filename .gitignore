@@ -3,6 +3,6 @@ home/*
 .idea/
 .svn/
 etc/images/
-**/jetty/logs/
+target/jetty/logs/
 target/jetty/work/
 target/jetty/home/db
