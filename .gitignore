@@ -1,11 +1,8 @@
 *.class
-# Package Files #
-*.jar
-*.ear
 home/*
 .idea/
 .svn/
 etc/images/
-**/jetty/logs/
+target/jetty/jetty/logs/
 target/jetty/work/
 target/jetty/home/db
